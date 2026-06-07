@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynasty Banking</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&family=Barlow:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fontsource/gilroy@4.5.3/index.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="script.js"></script>
+    <style>
+        @font-face {
+            font-family: 'Agency FBS';
+            src: url('assets/AgencyFB-Bold.woff2') format('woff2');
+            font-weight: bold;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'GilroyBold';
+            src: url('assets/Gilroy-Bold.woff2') format('woff2');
+        }
+        @font-face {
+            font-family: 'GilroyRegular';
+            src: url('assets/Gilroy-Regular.woff2') format('woff2');
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-rectangle">
+        <img src="assets/logo.png" alt="Dynasty">
+        <div class="logo-text">
+            <span>DYNASTY</span>
+            <span>BANKING</span>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <div class="info-section">
+                    <h2>Information</h2>
+                    <p>Si vous êtes le patron d'une entreprise, vous pouvez accéder au compte entreprise</p>
+                </div>
+                <div class="user-info">
+                    <i class="fas fa-user-circle avatar-icon"></i>
+                    <span class="account-type">Compte Personnel</span>
+                    <button class="close-btn">×</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="left-section">
+                <div class="card">
+                    <div class="cardNameBox">
+                        <img src="assets/logo.png" alt="Dynasty" class="cardLogo">
+                        <div class="cardNameTextBox">
+                            <span class="cardNameText">DYNASTY</span>
+                            <span class="cardNameSubText">PERSONNEL</span>
+                        </div>
+                    </div>
+                    <div class="cardValidBox">
+                        <span class="cardValidText">VALIDE JUSQU'À</span>
+                        <span class="cardValidSubText">06/30</span>
+                    </div>
+                    <div class="balanceBox">
+                        <span class="balanceSubText">Solde</span>
+                        <span class="balanceText">$0</span>
+                    </div>
+                    <img src="assets/card-effect.png" alt="" class="cardRightEffect">
+                </div>
+
+                <div class="actions-section">
+                    <div class="section-header">
+                        <i class="fas fa-cogs section-icon"></i>
+                        <h2>Actions sur le compte</h2>
+                    </div>
+                    <button class="action-btn deposit">
+                        <img src="assets/deposit-icon.png" alt="Deposit">
+                        <div class="btn-text">
+                            <span class="btn-title">DÉPOSER</span>
+                            <span class="btn-subtitle">Effectuer Un Dépôt</span>
+                        </div>
+                        <span class="btn-arrow">›</span>
+                    </button>
+                    <button class="action-btn withdraw">
+                        <img src="assets/withdraw-icon.png" alt="Withdraw">
+                        <div class="btn-text">
+                            <span class="btn-title">RETIRER</span>
+                            <span class="btn-subtitle">Effectuer Un Retrait</span>
+                        </div>
+                        <span class="btn-arrow">›</span>
+                    </button>
+                    <button class="action-btn transfer">
+                        <img src="assets/transfer-icon.png" alt="Transfer">
+                        <div class="btn-text">
+                            <span class="btn-title">TRANSFÉRER</span>
+                            <span class="btn-subtitle">Effectuer Un Transfert</span>
+                        </div>
+                        <span class="btn-arrow">›</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="right-section">
+                <div class="transactions-section">
+                    <div class="section-header">
+                        <i class="fas fa-clock-rotate-left"></i>
+                        <h2>HISTORIQUE DES TRANSACTIONS</h2>
+                    </div>
+                    <div class="history-list">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  
+    <div class="modal deposit-modal">
+        <div class="modal-content">
+            <h3>Déposer</h3>
+            <p>Effectuer un dépôt</p>
+            <div class="input-container">
+                <input type="number" class="amount-input" placeholder="Somme">
+            </div>
+            <button class="action-button">Déposer</button>
+        </div>
+    </div>
+
+    <div class="modal withdraw-modal">
+        <div class="modal-content">
+            <h3>Retirer</h3>
+            <p>Effectuer un retrait</p>
+            <div class="input-container">
+                <input type="number" class="amount-input" placeholder="Somme">
+            </div>
+            <button class="action-button">Retirer</button>
+        </div>
+    </div>
+
+    <div class="modal transfer-modal">
+        <div class="modal-content">
+            <h3>Transférer</h3>
+            <p>Effectuer un transfert</p>
+            <div class="input-container">
+                <input type="number" class="amount-input" placeholder="Somme">
+            </div>
+            <div class="input-container">
+                <input type="number" class="id-input" placeholder="ID du joueur">
+            </div>
+            <button class="action-button">Transférer</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,238 @@
+#store-container {
+    position: absolute;
+    display: none;
+    background-color: white;
+    width: 550px;
+    height: 350px;
+    bottom: calc(50% - 175px);
+    left: calc(50% - 275px);
+    border-radius: 5px;
+    -webkit-filter: drop-shadow(0 3px 10px rgba(152, 52, 235, 0.75));
+    filter: drop-shadow(0 5px 12px rgba(152, 52, 235, 0.75));
+}
+
+@font-face {
+    font-family: 'Pricedown';
+    src: url('../fonts/pdown.ttf')
+}
+
+@font-face {
+    font-family: 'bankgothic';
+    src: url('../fonts/bankgothic.ttf')
+}
+
+body {
+    margin: 0;
+    background-color: transparent;
+}
+
+html {
+    overflow: hidden;
+}
+
+#container {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#status_list {
+    position: absolute;
+    left: 14%;
+    bottom: 9%;
+    width: 7.5%;
+    max-width: 200px;
+    min-width: 100px;
+    transform: rotate(-90deg);
+}
+
+.status {
+    padding: 1px;
+    margin: -0.05em;
+}
+
+.status_ari {
+    z-index: 2;
+    height: 1.1em;
+    opacity: 0.4;
+    border-radius: 25px;
+}
+
+.status_val {
+    position: absolute;
+    z-index: 1;
+    height: 1.1em;
+    opacity: 0.7;
+    border-radius: 25px;
+}
+
+.logo {
+    position: absolute;
+    opacity: 0;
+    right: calc(50% - 175px);
+    top: calc(50% - 175px);
+    -webkit-filter: drop-shadow(0 3px 10px #ccc6be);
+    filter: drop-shadow(0 5px 12px #ccc6be);
+}
+
+#inventory_notifications {
+    font-family: bankgothic;
+    position: absolute;
+    right: 40;
+    bottom: 40;
+    font-size: 2em;
+    font-weight: bold;
+    color: #FFF;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+@font-face {
+    font-family: 'Teko';
+    src: url('../fonts/Teko.woff') format('woff2'), url('../fonts/Teko.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Teko', serif;
+}
+
+#infos {
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    width: 235px;
+}
+
+.info img.badge {
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    float: left;
+    margin-left: -40px;
+    border-radius: 25px;
+    /*border: 1px solid white;*/
+}
+
+.info .container {
+    position: relative;
+    width: 235px;
+    height: 32px;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    /*border: 1px solid white;*/
+}
+
+.info .container .state {
+    position: absolute;
+    overflow: hidden;
+    width: 225px;
+    top: 6px;
+    left: 10px;
+    color: white;
+    font-size: 18px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    text-align: left;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.info .container .bar {
+    position: absolute;
+    height: 1px;
+    width: 267px;
+    top: 31px;
+    left: -32px;
+}
+
+.info img.subbadge {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    float: left;
+    margin-left: 14px;
+    margin-top: 4px;
+}
+
+.info .container .subcontainer {
+    position: absolute;
+    height: 20px;
+    width: 200px;
+    left: 35px;
+    top: 37px;
+    background-color: #7a23eb;
+    border-radius: 25px;
+    /*border: 1px solid white;*/
+}
+
+.info .container .subcontainer-user {
+    position: absolute;
+    height: 20px;
+    width: 68px;
+    left: -40px;
+    top: 37px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.info .container .state-user {
+    position: absolute;
+    overflow: hidden;
+    width: 75px;
+    top: 2px;
+    left: 25px;
+    color: white;
+    font-size: 18px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    text-align: left;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #000000;
+    font-family: 'Arial', serif;
+    font-weight: bold;
+}
+
+.info img.subbadge-user {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    top: 4px;
+    left: 5px;
+}
+
+.info .container .subcontainer .state {
+    position: absolute;
+    overflow: hidden;
+    font-size: 12px;
+    top: 3px;
+    left: 32px;
+    width: 121px;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    text-overflow: ellipsis;
+    color: black;
+    text-shadow: inherit;
+    font-weight: bold;
+}
+
+header {
+    width: 80px;
+    height: 80px;
+    /*background-color: #a519ea;*/
+    opacity: 0.8;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}

@@ -1,0 +1,144 @@
+/* Polices personnalisées */
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/Gilroy-ExtraBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MarteauPoto';
+    src: url('fonts/Marteau-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy1';
+    src: url('Gilroy.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Styles globaux */
+* {
+    font-family: 'Gilroy1', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: transparent;
+}
+
+/* Container principal */
+[class~=hud-container] {
+    position: fixed;
+    top: 20px;
+    right: 0;
+    width: 187.5pt;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-radius: 15px;
+    padding: 11.25pt 15px 15px;
+    color: #fff;
+}
+
+/* En-tête */
+[class~=hud-header] {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, rgba(50, 50, 50, 0.281), rgba(53, 36, 68, 0.8), #530792);
+    margin-bottom: 15px;
+    width: 100%;
+    position: relative;
+    padding: 10px 15px;
+    border-radius: 7.5pt 100px 100px 7.5pt;
+}
+
+/* Logo */
+[class~=hud-logo] {
+    width: 82.5pt;
+    height: 82.5pt;
+    position: absolute;
+    top: 50%;
+    right: -23px;
+    transform: translateY(-50%);
+}
+
+/* Titre */
+[class~=hud-title] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+[class~=hud-title] h1 {
+    font-family: 'MarteauPoto';
+    font-size: 18.75pt;
+    color: #b8a1ff;
+    margin: 0;
+}
+
+[class~=hud-title] p {
+    font-family: 'Gilroy';
+    font-size: 11px;
+    color: #d4c1ff;
+    margin: 0;
+}
+
+/* Éléments du HUD */
+[class~=hud-item] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, transparent, rgba(50, 50, 50, 0.6), rgba(82, 66, 97, 0.8), #530792);
+    padding: 10px 12px;
+    border-radius: 31.25px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    position: relative;
+    width: 140px;
+}
+
+[class~=hud-item]:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Texte des montants */
+[class~=hud-text] {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    flex-grow: 1;
+    text-align: right;
+    margin-right: 18.75pt;
+}
+
+/* Cercles d'icônes */
+[class~=icon-circle] {
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(135deg, #5b2c82, #530792);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d4a1ff;
+    font-size: 18px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    right: -5px;
+}
+
+[class~=icon-img] {
+    width: 25px;
+    height: 25px;
+}
