@@ -1,41 +1,102 @@
 # BaseNyseraDev By Cypher
 
-Welcome to **BaseNyseraDev**, a comprehensive and modern FiveM base developed by **CypherDev**. This base is designed to be highly optimized, visually stunning, and feature-rich to kickstart your next roleplay or freeroam server.
+Bienvenue sur **BaseNyseraDev**, une base FiveM complète et moderne développée par **CypherDev**.
 
-## 🌟 Key Features
+Cette base a été conçue pour offrir une expérience optimisée, fluide et moderne, idéale pour lancer rapidement un serveur RolePlay ou FreeRoam avec des systèmes performants et une interface soignée.
 
-- **Modern UI Systems (`[UI]`)**: Beautifully designed interfaces including:
-  - Custom Inventory System (`CypherDev_Inventory`)
-  - Dynamic HUD
-  - Interactive Menus (`CypherDev_Menu`)
-  - Custom Loading Screen (`Nysera_Loading`)
-  - Banking & Skinchanger UIs
-- **Optimized Core Scripts**: Clean, structured code ensuring high performance.
-- **Ready-to-Use Database**: Comes with `CypherDev_BaseDynasty.sql` for quick setup.
-- **Easy Configuration**: Simple setup via `server.cfg` and `resources.cfg`.
+## 🌟 Fonctionnalités principales
+
+### 🎨 Interfaces modernes (`[UI]`)
+
+Une collection d'interfaces entièrement personnalisées :
+
+* **CypherDev_Inventory** – Système d'inventaire moderne et optimisé.
+* **HUD Dynamique** – Affichage clair et personnalisable.
+* **CypherDev_Menu** – Menus interactifs et intuitifs.
+* **Nysera_Loading** – Écran de chargement personnalisé.
+* **Banque & Skinchanger** – Interfaces modernes et faciles à utiliser.
+
+### ⚡ Scripts optimisés
+
+* Code propre et structuré.
+* Optimisation des performances serveur.
+* Consommation minimale des ressources.
+
+### 🗄️ Base de données prête à l'emploi
+
+* Fichier SQL inclus : `CypherDev_BaseDynasty.sql`.
+* Installation rapide et simplifiée.
+
+### ⚙️ Configuration facile
+
+* Paramétrage rapide via :
+
+  * `server.cfg`
+  * `resources.cfg`
 
 ## 🛠️ Installation
 
-1. **Download / Clone the Repository:**
-   ```bash
-   git clone https://github.com/CypherDev121/BaseNyseraDev_ByCypher.git
-   ```
-2. **Database Setup:**
-   Import `CypherDev_BaseDynasty.sql` into your MySQL/MariaDB database (e.g., via HeidiSQL, phpMyAdmin, or XAMPP).
-3. **Configuration:**
-   - Open `server.cfg` and update your database connection string to match your setup.
-   - Insert your `sv_licenseKey` and `steam_webApiKey` in the `server.cfg`.
-4. **Start the Server:**
-   Run the included `start.bat` to launch your server.
+### 1. Télécharger ou cloner le dépôt
 
-## 📜 Requirements
+```bash
+git clone https://github.com/CypherDev121/BaseNyseraDev_ByCypher.git
+```
 
-- FiveM Server Artifacts (latest recommended)
-- MySQL Database (MariaDB recommended)
+### 2. Installation de la base de données
+
+Importez le fichier :
+
+```sql
+CypherDev_BaseDynasty.sql
+```
+
+dans votre base de données MySQL/MariaDB à l'aide d'un logiciel tel que :
+
+* HeidiSQL
+* phpMyAdmin
+* XAMPP
+
+### 3. Configuration
+
+Ouvrez le fichier `server.cfg` puis :
+
+* Configurez votre connexion à la base de données.
+* Ajoutez votre clé FiveM :
+
+```cfg
+sv_licenseKey ""
+```
+
+* Ajoutez votre clé Steam Web API :
+
+```cfg
+set steam_webApiKey ""
+```
+
+### 4. Démarrer le serveur
+
+Exécutez simplement :
+
+```bat
+start.bat
+```
+
+pour lancer votre serveur.
+
+## 📜 Prérequis
+
+* Dernière version des Artifacts FiveM recommandée.
+* Base de données MySQL ou MariaDB (MariaDB recommandé).
 
 ## 🤝 Support
-Join the community for support, updates, and more releases!
-- **GitHub**: [CypherDev121](https://github.com/CypherDev121)
 
-## 📄 Credits
-Developed with ❤️ by **CypherDev**.
+Pour obtenir de l'aide, suivre les mises à jour ou découvrir les prochaines versions :
+
+GitHub :
+https://github.com/CypherDev121
+
+## 📄 Crédits
+
+Développé avec passion par **CypherDev** ❤️
+
+Tous droits réservés.
