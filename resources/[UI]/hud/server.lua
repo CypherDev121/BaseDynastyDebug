@@ -2,7 +2,7 @@ ESX = nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
-ESX.RegisterServerCallback('dynastyHUD:getPlayerMoney', function(source, cb)
+ESX.RegisterServerCallback('NyseraRPHUD:getPlayerMoney', function(source, cb)
     local xPlayer = ESX.GetPlayerFromId(source)
     if not xPlayer then
         print("[ERROR] xPlayer is nil for source: " .. tostring(source))

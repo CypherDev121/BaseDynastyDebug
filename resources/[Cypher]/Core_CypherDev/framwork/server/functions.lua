@@ -32,7 +32,7 @@ ESX.Trigger = function(source, eventName)
 	if ESX.Triggers[source] < 30 then
 		return true
 	elseif ESX.Triggers[source] >= 30 then
-		DropPlayer(source, "TarekAC: Trop de requetes envoyées au serveur !")
+		DropPlayer(source, "CypherAC: Trop de requetes envoyées au serveur !")
 		return false
 	end
 end

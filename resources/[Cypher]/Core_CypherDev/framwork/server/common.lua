@@ -247,7 +247,7 @@ MySQL.ready(function()
 	end)
 
 
-	print('[framework] [^2INFO^7] ESX Framework developed by Tarek has been initialized')
+	print('[framework] [^2INFO^7] ESX Framework developed by Cypher has been initialized')
 end)
 
 

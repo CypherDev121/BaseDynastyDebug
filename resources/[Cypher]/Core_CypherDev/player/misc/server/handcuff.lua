@@ -27,11 +27,11 @@ AddEventHandler('handcuff:drag', function(player)
         TriggerClientEvent('ehandcuff:drag', player, source)
     end
 end)
-RegisterServerEvent('handcuff:TarekVehicle')
-AddEventHandler('handcuff:TarekVehicle', function(player)
+RegisterServerEvent('handcuff:CypherVehicle')
+AddEventHandler('handcuff:CypherVehicle', function(player)
     if player ~= -1 then 
         if not CheckPlayersCoordsBetweenEachOther(source, player, 10) then DropPlayer(source, "Pas Bien de Trigger mec") return end
-        TriggerClientEvent('ehandcuff:TarekVehicle', player)
+        TriggerClientEvent('ehandcuff:CypherVehicle', player)
     end
 end)
 RegisterServerEvent('handcuff:OutVehicle')

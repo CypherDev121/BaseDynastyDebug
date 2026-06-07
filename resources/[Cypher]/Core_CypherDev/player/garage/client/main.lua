@@ -306,7 +306,7 @@ end
 
 Citizen.CreateThread(function()
 	while true do
-		Citizen.Wait(5)
+		Citizen.Wait(0)
 		local sleep = true
     for a,b in pairs(Garages) do
 		for k,v in pairs(b) do

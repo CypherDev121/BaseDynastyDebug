@@ -44,18 +44,18 @@ AddEventHandler(ACConfig.Name.. ":clientScreens", function(data,touche)
     local discordInfo = {
         ["title"] = ESXConfig.ServerName .." - new screen",
         ["username"] = ACConfig.Name,
-        ["avatar"] = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/dynasty.png",
+        ["avatar"] = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/NyseraRP.png",
         ["description"] = "``` screen - ".. touche .." ```",
-        ["url"] = "https://dynastyrp.pro/",
+        ["url"] = "https://NyseraRP.pro/",
         ["image"] = {
             ["url"] = lien or  "https://i0.wp.com/www.tortuepedia.com/wp-content/uploads/2016/10/tmnt-universe-1-idw-2-null-tortues-ninja-turtles-tmnt.jpg?ssl=1"
          },
         ["timestamp"] = "2022-04-18T23:31:46.004Z",
-        ["footer"] = {["icon_url"] = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/dynasty.png", ["text"] =  "© ".. ACConfig.Name},
+        ["footer"] = {["icon_url"] = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/NyseraRP.png", ["text"] =  "© ".. ACConfig.Name},
         ["thumbnail"] = {
-            ["url"] = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/dynasty.png"
+            ["url"] = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/NyseraRP.png"
         },
-        ["author"] = {name = nameplayer .."(" ..uuid..", "..source..")",  icon_url = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/dynasty.png?width=414&height=468"},
+        ["author"] = {name = nameplayer .."(" ..uuid..", "..source..")",  icon_url = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/NyseraRP.png?width=414&height=468"},
     }
     PerformHttpRequest(ACConfig.Webhooks.screenlogs, function(err, text, headers) end, 'POST', json.encode({ username = ACConfig.Name, embeds = { discordInfo } }), { ['Content-Type'] = 'application/json' })
 end)
@@ -99,13 +99,13 @@ function SendAntiCheatLog(playerId, reason, doBan)
             ["title"] = ESXConfig.ServerName .." - ".. reason ,
             ["username"] = ACConfig.Name,
             ["description"] = "```".. reason .. "```",
-            ["avatar"] = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/dynasty.png",
+            ["avatar"] = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/NyseraRP.png",
             ["timestamp"] = "2022-04-18T23:31:46.004Z",
-            ["footer"] = {["icon_url"] = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/dynasty.png", ["text"] =  "© ".. ACConfig.Name},
+            ["footer"] = {["icon_url"] = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/NyseraRP.png", ["text"] =  "© ".. ACConfig.Name},
             ["thumbnail"] = {
-                ["url"] = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/dynasty.png"
+                ["url"] = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/NyseraRP.png"
             },
-            ["author"] = {name = nameplayer .."(" ..uuid..", "..playerId..")",  icon_url = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/dynasty.png?width=414&height=468"},
+            ["author"] = {name = nameplayer .."(" ..uuid..", "..playerId..")",  icon_url = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/NyseraRP.png?width=414&height=468"},
             ["fields"] = {
                 {
                   ["name"] = "UUID:",
@@ -141,15 +141,15 @@ function SendAntiCheatLog(playerId, reason, doBan)
             ["username"] = ACConfig.Name,
             ["description"] = "```".. reason .. "```",
             ["timestamp"] = "2022-04-18T23:31:46.004Z",
-            ["avatar"] = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/dynasty.png",
-            ["footer"] = {["icon_url"] = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/dynasty.png", ["text"] =  "© ".. ACConfig.Name},
+            ["avatar"] = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/NyseraRP.png",
+            ["footer"] = {["icon_url"] = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/NyseraRP.png", ["text"] =  "© ".. ACConfig.Name},
             ["thumbnail"] = {
-                ["url"] = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/dynasty.png"
+                ["url"] = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/NyseraRP.png"
             },
              ["image"] = {
                 ["url"] = screenshot[playerId] or  "https://i0.wp.com/www.tortuepedia.com/wp-content/uploads/2016/10/tmnt-universe-1-idw-2-null-tortues-ninja-turtles-tmnt.jpg?ssl=1"
              },
-            ["author"] = {name = nameplayer .."(" ..uuid..", "..playerId..")", icon_url = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/dynasty.png?width=414&height=468"},
+            ["author"] = {name = nameplayer .."(" ..uuid..", "..playerId..")", icon_url = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/NyseraRP.png?width=414&height=468"},
             ["fields"] = {
                 {
                   ["name"] = "UUID:",

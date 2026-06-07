@@ -1,16 +1,23 @@
 ESX = nil
 
-TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-
+Citizen.CreateThread(function()
+    while ESX == nil do
+        TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+        Citizen.Wait(10)
+    end
+end)
 
 function updateHUD()
-    ESX.TriggerServerCallback('dynastyHUD:getPlayerMoney', function(data)
-        SendNUIMessage({
-            type = 'updateHUD',
-            dirty = data.dirty,   -- Argent Sale
-            cash = data.cash,     -- Liquide
-            bank = data.bank      -- Banque
-        })
+    if not ESX then return end
+    ESX.TriggerServerCallback('NyseraRPHUD:getPlayerMoney', function(data)
+        if data then
+            SendNUIMessage({
+                type = 'updateHUD',
+                dirty = data.dirty,   -- Argent Sale
+                cash = data.cash,     -- Liquide
+                bank = data.bank      -- Banque
+            })
+        end
     end)
 end
 

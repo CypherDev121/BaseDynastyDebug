@@ -38,7 +38,7 @@ AddEventHandler('playerConnecting', function(playerName,setKickReason,c)
                 items = {
                   {
                     type = "Image",
-                    url = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/dynasty.png?width=414&height=468",
+                    url = "https://media.discordapp.net/attachments/869710911529680937/965297429203267594/NyseraRP.png?width=414&height=468",
                     size = "medium",
                     horizontalAlignment = "center",
                     style = "person"

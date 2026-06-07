@@ -31,8 +31,8 @@ function CheckJobsCoords(source, zone)
 		if #(playercoords - coords) < 100 then
 			return true
 		else
-			TriggerEvent("TarekAC:sendLog", source, "Jobs Auto-Farm attempt")
-			TriggerEvent("TarekAC:requestPlayerBan", source)
+			TriggerEvent("CypherAC:sendLog", source, "Jobs Auto-Farm attempt")
+			TriggerEvent("CypherAC:requestPlayerBan", source)
 		end
 	else
 		DropPlayer(source, "Désynchronisation ou stop resource")

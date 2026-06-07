@@ -366,7 +366,7 @@ Citizen.CreateThread(function()
             Citizen.Wait(100)
         end
         StartCamera()
-        TriggerEvent('Tarek-ui:OpenRegister')
+        TriggerEvent('cypherdev_ui:OpenRegister')
     end
 end)
 

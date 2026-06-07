@@ -49,7 +49,7 @@ function OpenGangActionsMenu()
                    TriggerServerEvent("handcuff:drag", GetPlayerServerId(closestPlayer))
                  elseif btn.action == "invehicle" then
                     if ESX.PlayerData.safezone then ESX.ShowNotification("Vous ne pouvez pas faire ceci en safe zone") return end
-                   TriggerServerEvent("handcuff:TarekVehicle", GetPlayerServerId(closestPlayer))
+                   TriggerServerEvent("handcuff:CypherVehicle", GetPlayerServerId(closestPlayer))
                  elseif btn.action == "outvehicle" then
                     if ESX.PlayerData.safezone then ESX.ShowNotification("Vous ne pouvez pas faire ceci en safe zone") return end
                    TriggerServerEvent('handcuff:OutVehicle', GetPlayerServerId(closestPlayer))

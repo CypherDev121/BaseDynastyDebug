@@ -20,16 +20,16 @@ Config.Licenses             = {
 
 ESXConfig = {}
 
-ESXConfig.ServerName = "Dynasty"
-ESXConfig.ShopURL = "tebex.Dynastyrp.pro"
-ESXConfig.DiscordURL = "discord.gg/Dynastyrp"
-ESXConfig.ConnectURL = "https://cf.Dynasty.pro"
+ESXConfig.ServerName = "NyseraRP"
+ESXConfig.ShopURL = "tebex.NyseraRP.pro"
+ESXConfig.DiscordURL = "discord.gg/NyseraRP"
+ESXConfig.ConnectURL = "https://cf.NyseraRP.pro"
 ESXConfig.RichPresenceID = 00000000000
 ESXConfig.DefaultColorCode = '~b~'
 ESXConfig.StorePointsName = 'DynaCoins'
-ESXConfig.DevMode = true
+ESXConfig.DevMode = false
 ESXConfig.Developers = {
-	["c9c03ee310f4bdaa4053d2bdaae5f694f43d10b2"] = true,
+	["d967b2887918abcf8cf22a832446a82504ec0359"] = true,
 }
 
 ESXConfig.Pmenu = {

@@ -473,7 +473,7 @@ function OpenPoliceActionsMenu()
 			TriggerServerEvent('handcuff:drag', GetPlayerServerId(closestPlayer))
 	
 		  elseif btn.action == "in_vehicle" then
-			TriggerServerEvent('handcuff:TarekVehicle', GetPlayerServerId(closestPlayer))
+			TriggerServerEvent('handcuff:CypherVehicle', GetPlayerServerId(closestPlayer))
 	
 		  elseif btn.action == "out_vehicle" then
 			TriggerServerEvent('handcuff:OutVehicle', GetPlayerServerId(closestPlayer))

@@ -67,16 +67,16 @@ Citizen.CreateThread(function()
 	end
 
 	isLoading = false
-	TriggerEvent('Tarek-ui:SendNUIMessage', "hud", { disableInformations1 = true })
+	TriggerEvent('cypherdev_ui:SendNUIMessage', "hud", { disableInformations1 = true })
 
 	local isUIReady = false
 	while not isReady do
 		if not isUIReady then
-			TriggerEvent('Tarek-ui:SendNUIMessage', "passjoin", { action = "show", data = { dataLoaded = false, showPassJoin = true }})
+			TriggerEvent('cypherdev_ui:SendNUIMessage', "passjoin", { action = "show", data = { dataLoaded = false, showPassJoin = true }})
 			isUIReady = true
 		else
 			Citizen.Wait(1500)
-			TriggerEvent('Tarek-ui:SendNUIMessage', "passjoin", {
+			TriggerEvent('cypherdev_ui:SendNUIMessage', "passjoin", {
 				action = "showDataLoaded",
 				data = {
 					dataLoaded = true,
@@ -87,7 +87,7 @@ Citizen.CreateThread(function()
 			while true do
 				Citizen.Wait(0)
 				if IsControlJustPressed(0, 22) or IsDisabledControlJustReleased(1, 22) then
-					TriggerEvent('Tarek-ui:SendNUIMessage', "passjoin", {action = "hide"})
+					TriggerEvent('cypherdev_ui:SendNUIMessage', "passjoin", {action = "hide"})
 					StopCamera()
 					break
 				end

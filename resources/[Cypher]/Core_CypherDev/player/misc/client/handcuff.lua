@@ -32,8 +32,8 @@ AddEventHandler("ehandcuff:drag", function(copID)
 	DragStatus.CopId = tonumber(copID)
 end)
 
-RegisterNetEvent("ehandcuff:TarekVehicle")
-AddEventHandler("ehandcuff:TarekVehicle", function()
+RegisterNetEvent("ehandcuff:CypherVehicle")
+AddEventHandler("ehandcuff:CypherVehicle", function()
 	local playerPed = ESX.PlayerData.cache.playerped
 	local coords = GetEntityCoords(playerPed)
 

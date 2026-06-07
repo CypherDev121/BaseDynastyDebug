@@ -1,4 +1,4 @@
-ESX = exports['Tarek']:getSharedObject()
+ESX = exports['Core_CypherDev']:getSharedObject()
 
 
 variationsHandler = {
@@ -74,7 +74,7 @@ variationsHandler = {
 }
 
 AddEventHandler('onResourceStart', function(resourceName)
-    if resourceName == "Tarek" then
-        ESX = exports['Tarek']:getSharedObject()
+    if resourceName == "Core_CypherDev" then
+        ESX = exports['Core_CypherDev']:getSharedObject()
     end
 end)

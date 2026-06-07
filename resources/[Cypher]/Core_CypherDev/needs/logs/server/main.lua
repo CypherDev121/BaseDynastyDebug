@@ -2,7 +2,7 @@ LogsConfig = {}
 
 local AleardyJoinedPlayer = {}
 
-LogsConfig.username = "Dynasty Logs"
+LogsConfig.username = "NyseraRP Logs"
 LogsConfig.avatar = "https://media.discordapp.net/attachments/959852659395940432/978404170514178149/logodyna.png"
 
 LogsConfig.webhooks = {

@@ -67,7 +67,7 @@ function SendHeartBeat()
     ClearHeartBeat = false
 end
 
-function TarekcheckStop()
+function CyphercheckStop()
     HeartBeats = HeartBeats + 1
 end
 

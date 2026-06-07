@@ -498,7 +498,7 @@ end
 
 table.insert(AdminMenu.Menu["joueur"].b, {name = "Freeze", action = "freeze", slidemax = FreezeOption})
 
---table.insert(AdminMenu.Menu["menu staff"].b, {name = "Actions Anticheat", action = "Tarekacactions", ask = "→", askX = true})
+--table.insert(AdminMenu.Menu["menu staff"].b, {name = "Actions Anticheat", action = "Cypheracactions", ask = "→", askX = true})
 
 if ESX.PlayerData.group == "admin" then
 table.insert(AdminMenu.Menu["menu staff"].b, {name = "Faire une annonce", action = "announce", ask = "→", askX = true})

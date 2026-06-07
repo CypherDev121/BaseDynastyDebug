@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NyseraRP - Loading Screen</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="video-container">
+        <!-- Remplacer background.mp4 par le nom de votre vidéo si vous en avez une, sinon gardez ce fallback YouTube -->
+        <iframe 
+            src="https://www.youtube.com/embed/zpoXIAaH9cQ?autoplay=1&mute=1&loop=1&controls=0&showinfo=0&autohide=1&playlist=zpoXIAaH9cQ" 
+            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+        </iframe>
+        <div class="overlay"></div>
+    </div>
+
+    <!-- Lecteur audio caché. Mettez un fichier music.mp3 dans le dossier pour l'activer, ou utilisez la version web ci-dessous -->
+    <audio id="loading-music" autoplay loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="content">
+        <div class="logo-box">
+            <h1 class="glow-text">NYSERA<span class="rp-tag">RP</span></h1>
+            <p class="subtitle">La ville n'attend que vous...</p>
+        </div>
+
+        <div class="loading-box">
+            <div class="loading-info">
+                <span id="loading-status">Chargement des ressources...</span>
+                <span id="loading-percentage">0%</span>
+            </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progress-bar">
+                    <div class="progress-glow"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

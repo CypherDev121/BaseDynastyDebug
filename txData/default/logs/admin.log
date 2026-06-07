@@ -1,0 +1,36 @@
+================================================================
+======== txAdmin v8.0.1 atop fxserver 25770 Starting - 2026-06-07, 09 h 49 min 14 s
+================================================================
+[09:49:43][CypherDev] created admins file
+[09:50:49][CypherDev] Config changes: general.serverName, server.dataPath
+[09:50:49][CypherDev] Changing global/fxserver settings via setup stepper.
+[09:50:51][MONITOR] Restarting server: Server process close detected.
+[09:50:54][MONITOR] Restarting server: Server process close detected.
+[09:50:55][CypherDev] [CypherDev] executed "STOP SERVER"
+[09:50:59][MONITOR] Restarting server: Server process close detected.
+[09:51:35][CypherDev] [CypherDev] executed "START SERVER"
+[09:52:50][CypherDev] [CypherDev] executed "RESTART SERVER"
+[09:54:26][CypherDev] [CypherDev] executed "RESTART SERVER"
+[09:57:07][CypherDev] [CypherDev] executed "RESTART SERVER"
+[10:04:20][CypherDev] [CypherDev] executed "ensure BaseNyseraDev_ByCypher"
+[10:04:24][CypherDev] [CypherDev] executed "refresh"
+[10:04:25][CypherDev] [CypherDev] executed "ensure BaseNyseraDev_ByCypher"
+[10:04:28][CypherDev] [CypherDev] executed "ensure Core_CypherDev"
+[10:05:34][CypherDev] [CypherDev] executed "ensure Core_CypherDev"
+[10:10:05][CypherDev] [CypherDev] executed "RESTART SERVER"
+[11:25:52][CypherDev] [CypherDev] executed "RESTART SERVER"
+[11:32:57][CypherDev] [CypherDev] executed "restart hud"
+[11:33:15][CypherDev] [CypherDev] executed "ensure nysera_loading"
+[11:33:17][CypherDev] [CypherDev] executed "refresh"
+[11:33:18][CypherDev] [CypherDev] executed "ensure nysera_loading"
+[11:34:11][CypherDev] [CypherDev] executed "RESTART SERVER"
+[11:34:31][CypherDev] [CypherDev] executed "RESTART SERVER"
+[11:37:01][CypherDev] [CypherDev] executed "setgroup 1 supeardmin"
+[11:37:07][CypherDev] [CypherDev] executed "setgroup 1 superadmin"
+[11:37:44][CypherDev] [CypherDev] executed "ensure [Cypher]"
+[11:39:15][CypherDev] [CypherDev] executed "RESTART SERVER"
+[11:43:59][CypherDev] [CypherDev] executed "RESTART SERVER"
+[11:52:56][CypherDev] [CypherDev] executed "restart  restart Core_CypherDev"
+[11:52:57][CypherDev] [CypherDev] executed "restart Core_CypherDev"
+[11:58:39][CypherDev] [CypherDev] executed "restart Core_CypherDev"
+[12:00:25][CypherDev] [CypherDev] executed "restart Core_CypherDev"

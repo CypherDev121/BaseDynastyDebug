@@ -1,0 +1,1722 @@
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [26160] FXServer Starting - 2026-06-07, 09 h 50 min 49 s
+║             TXADMIN║ ================================================================
+║             TXADMIN║ setr "txAdmin-locale" "en"
+║             TXADMIN║ set "txAdmin-serverName" "Base Nysera"
+║             TXADMIN║ set "txAdmin-checkPlayerJoin" "true"
+║             TXADMIN║ set "txAdmin-menuAlignRight" "false"
+║             TXADMIN║ set "txAdmin-menuPageKey" "Tab"
+║             TXADMIN║ set "txAdmin-playerModePtfx" "true"
+║             TXADMIN║ set "txAdmin-hideAdminInPunishments" "true"
+║             TXADMIN║ set "txAdmin-hideAdminInMessages" "false"
+║             TXADMIN║ set "txAdmin-hideDefaultAnnouncement" "false"
+║             TXADMIN║ set "txAdmin-hideDefaultDirectMessage" "false"
+║             TXADMIN║ set "txAdmin-hideDefaultWarning" "false"
+║             TXADMIN║ set "txAdmin-hideDefaultScheduledRestartWarning" "false"
+║             TXADMIN║ txaEvent "configChanged" "{}"
+[           resources] Scanning resources.
+[           resources] Found 19 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhes↩
+║              STDERR║ Fatal Error: Could not authenticate server license key. The specified key (cfxk...IBqO) does not exist.↩
+ive] Error: Could not authenticate server license key. The specified key (cfxk...IBqO) does not exist.
+║             TXADMIN║ Restarting server: Server process close detected.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [25716] FXServer Starting - 2026-06-07, 09 h 50 min 51 s
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 19 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesiv↩
+║              STDERR║ Fatal Error: Could not authenticate server license key. The specified key (cfxk...IBqO) does not exist.↩
+e] Error: Could not authenticate server license key. The specified key (cfxk...IBqO) does not exist.
+║             TXADMIN║ Restarting server: Server process close detected.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [22112] FXServer Starting - 2026-06-07, 09 h 50 min 54 s
+║             TXADMIN║ ================================================================
+[           resources] Scanning resources.
+[           resources] Found 19 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive]↩
+║              STDERR║ Fatal Error: Could not authenticate server license key. The specified key (cfxk...IBqO) does not exist.↩
+ Error: Could not authenticate server license key. The specified key (cfxk...IBqO) does not exist.
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"CypherDev\",\"message\":\"Server shutting down (admin request).\"}"
+║             TXADMIN║ Restarting server: Server process close detected.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [13140] FXServer Starting - 2026-06-07, 09 h 51 min 35 s
+║             TXADMIN║ ================================================================
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[           resources] Scanning resources.
+[           resources] Found 19 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for chat
+[      resources:chat] Warning: could not find file `html/config.default.js` (defined in fxmanifest.lua:8)
+[      resources:chat] Warning: could not find file `html/config.js` (defined in fxmanifest.lua:8)
+[      resources:chat] Warning: could not find file `html/App.js` (defined in fxmanifest.lua:8)
+[      resources:chat] Warning: could not find file `html/Message.js` (defined in fxmanifest.lua:8)
+[      resources:chat] Warning: could not find file `html/Suggestions.js` (defined in fxmanifest.lua:8)
+[      resources:chat] Warning: could not find file `html/vendor/vue.2.3.3.min.js` (defined in fxmanifest.lua:8)
+[           resources] Started resource chat (6 warnings)
+[    c-scripting-core] Creating script environments for Core_CypherDev
+[script:Core_CypherDe] creator:updateId
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_1.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource Core_CypherDev (12 warnings)
+[           resources] Started resource notifications
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[resources:policeint:] Asset policeint/gabz_mrpd_txd.ytd uses 38.5 MiB of physical memory.
+[           resources] Started resource policeint (1 warning)
+[           resources] Started resource putin-dialog
+[resources:vehicles:s] Asset vehicles/18performante.yft uses 22.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/18performante.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/20x5m.ytd uses 66.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/a45_hi.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.ytd uses 44.5 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/bg700w_hi.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.ytd uses 118.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/bmwm8_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.yft uses 20.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo2.ytd uses 82.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo3.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/kx450f.ytd uses 28.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/pts21.ytd uses 92.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodgt63.yft uses 18.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.ytd uses 22.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.yft uses 19.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.ytd uses 48.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6_hi.yft uses 16.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs318_hi.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.ytd uses 94.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs7r_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX_hi.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.yft uses 21.3 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/urus_hi.yft uses 18.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/veneno.ytd uses 192.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/xadv.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/yzfsm.ytd uses 48.0 MiB of physical memory.
+[           resources] Started resource vehicles (44 warnings)
+[    c-scripting-core] Creating script environments for ArmurerieUI
+[           resources] Started resource ArmurerieUI
+[    c-scripting-core] Creating script environments for Cypher-inventory
+[           resources] Started resource Cypher-inventory
+[    c-scripting-core] Creating script environments for Cypher-ui
+[           resources] Started resource Cypher-ui
+[    c-scripting-core] Creating script environments for banking
+[           resources] Started resource banking
+[           resources] Started resource gunfightui
+[    c-scripting-core] Creating script environments for hud
+[           resources] Started resource hud
+[    c-scripting-core] Creating script environments for Cypher_menu
+[           resources] Started resource Cypher_menu
+[    c-scripting-core] Creating script environments for ui-skinchanger
+[           resources] Started resource ui-skinchanger
+[ citizen-server-impl] Could not open logo.png for reading.
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[      script:oxmysql] [12.2.2-MariaDB] Database server connection established!
+[script:Core_CypherDe] [framework] [INFO] ESX Framework developed by Cypher has been initialized
+[      script:oxmysql] Warning: Core_CypherDev executed a query with an oversized result set (1055 results)!
+[      script:oxmysql] SELECT * FROM owned_vehicles
+[      script:oxmysql] An update is available for oxmysql (current version: 2.10.1)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.14.1
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://cypherdev-qqa7v79.users.cfx.re/
+[script:Core_CypherDe] 
+[script:Core_CypherDe]           _               _       _            _____ 
+[script:Core_CypherDe]     /\   | |             | |     | |     /\   / ____|
+[script:Core_CypherDe]    /  \  | |__  ___  ___ | |_   _| |_   /  \ | |     
+[script:Core_CypherDe]   / /\ \ | |_ \/ __|/ _ \| | | | | __| / /\ \| |     
+[script:Core_CypherDe]  / ____ \| |_) \__ \ (_) | | |_| | |_ / ____ \ |____ 
+[script:Core_CypherDe] /_/    \_\____/|___/\___/|_|\__,_|\__/_/    \_\_____|
+[script:Core_CypherDe] 
+[script:Core_CypherDe] Loaded Anticheat Banlist
+[script:Core_CypherDe] La BanList a ete charger avec succes.
+[script:Core_CypherDe] La BanListHistory a ete charger avec succes.
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"CypherDev\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [28500] FXServer Starting - 2026-06-07, 09 h 52 min 56 s
+║             TXADMIN║ ================================================================
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[           resources] Scanning resources.
+[           resources] Found 19 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[    c-scripting-core] Creating script environments for Core_CypherDev
+[script:Core_CypherDe] creator:updateId
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_1.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource Core_CypherDev (12 warnings)
+[           resources] Started resource notifications
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[resources:policeint:] Asset policeint/gabz_mrpd_txd.ytd uses 38.5 MiB of physical memory.
+[           resources] Started resource policeint (1 warning)
+[           resources] Started resource putin-dialog
+[resources:vehicles:s] Asset vehicles/18performante.yft uses 22.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/18performante.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/20x5m.ytd uses 66.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/a45_hi.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.ytd uses 44.5 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/bg700w_hi.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.ytd uses 118.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/bmwm8_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.yft uses 20.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo2.ytd uses 82.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo3.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/kx450f.ytd uses 28.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/pts21.ytd uses 92.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodgt63.yft uses 18.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.ytd uses 22.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.yft uses 19.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.ytd uses 48.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6_hi.yft uses 16.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs318_hi.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.ytd uses 94.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs7r_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX_hi.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.yft uses 21.3 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/urus_hi.yft uses 18.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/veneno.ytd uses 192.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/xadv.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/yzfsm.ytd uses 48.0 MiB of physical memory.
+[           resources] Started resource vehicles (44 warnings)
+[    c-scripting-core] Creating script environments for ArmurerieUI
+[           resources] Started resource ArmurerieUI
+[    c-scripting-core] Creating script environments for Cypher-inventory
+[           resources] Started resource Cypher-inventory
+[    c-scripting-core] Creating script environments for Cypher-ui
+[           resources] Started resource Cypher-ui
+[    c-scripting-core] Creating script environments for banking
+[           resources] Started resource banking
+[           resources] Started resource gunfightui
+[    c-scripting-core] Creating script environments for hud
+[           resources] Started resource hud
+[    c-scripting-core] Creating script environments for Cypher_menu
+[           resources] Started resource Cypher_menu
+[    c-scripting-core] Creating script environments for ui-skinchanger
+[           resources] Started resource ui-skinchanger
+[ citizen-server-impl] Could not open logo.png for reading.
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[      script:oxmysql] [12.2.2-MariaDB] Database server connection established!
+[script:Core_CypherDe] [framework] [INFO] ESX Framework developed by Cypher has been initialized
+[      script:oxmysql] Warning: Core_CypherDev executed a query with an oversized result set (1055 results)!
+[      script:oxmysql] SELECT * FROM owned_vehicles
+[      script:oxmysql] An update is available for oxmysql (current version: 2.10.1)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.14.1
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://cypherdev-qqa7v79.users.cfx.re/
+[script:Core_CypherDe] 
+[script:Core_CypherDe]           _               _       _            _____ 
+[script:Core_CypherDe]     /\   | |             | |     | |     /\   / ____|
+[script:Core_CypherDe]    /  \  | |__  ___  ___ | |_   _| |_   /  \ | |     
+[script:Core_CypherDe]   / /\ \ | |_ \/ __|/ _ \| | | | | __| / /\ \| |     
+[script:Core_CypherDe]  / ____ \| |_) \__ \ (_) | | |_| | |_ / ____ \ |____ 
+[script:Core_CypherDe] /_/    \_\____/|___/\___/|_|\__,_|\__/_/    \_\_____|
+[script:Core_CypherDe] 
+[script:Core_CypherDe] Loaded Anticheat Banlist
+[script:Core_CypherDe] La BanList a ete charger avec succes.
+[script:Core_CypherDe] La BanListHistory a ete charger avec succes.
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"CypherDev\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [10104] FXServer Starting - 2026-06-07, 09 h 54 min 32 s
+║             TXADMIN║ ================================================================
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[           resources] Scanning resources.
+[           resources] Found 19 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[    c-scripting-core] Creating script environments for Core_CypherDev
+[script:Core_CypherDe] creator:updateId
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_1.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource Core_CypherDev (12 warnings)
+[           resources] Started resource notifications
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[resources:policeint:] Asset policeint/gabz_mrpd_txd.ytd uses 38.5 MiB of physical memory.
+[           resources] Started resource policeint (1 warning)
+[           resources] Started resource putin-dialog
+[resources:vehicles:s] Asset vehicles/18performante.yft uses 22.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/18performante.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/20x5m.ytd uses 66.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/a45_hi.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.ytd uses 44.5 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/bg700w_hi.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.ytd uses 118.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/bmwm8_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.yft uses 20.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo2.ytd uses 82.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo3.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/kx450f.ytd uses 28.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/pts21.ytd uses 92.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodgt63.yft uses 18.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.ytd uses 22.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.yft uses 19.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.ytd uses 48.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6_hi.yft uses 16.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs318_hi.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.ytd uses 94.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs7r_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX_hi.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.yft uses 21.3 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/urus_hi.yft uses 18.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/veneno.ytd uses 192.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/xadv.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/yzfsm.ytd uses 48.0 MiB of physical memory.
+[           resources] Started resource vehicles (44 warnings)
+[    c-scripting-core] Creating script environments for ArmurerieUI
+[           resources] Started resource ArmurerieUI
+[    c-scripting-core] Creating script environments for Cypher-inventory
+[           resources] Started resource Cypher-inventory
+[    c-scripting-core] Creating script environments for Cypher-ui
+[           resources] Started resource Cypher-ui
+[    c-scripting-core] Creating script environments for banking
+[           resources] Started resource banking
+[           resources] Started resource gunfightui
+[    c-scripting-core] Creating script environments for hud
+[           resources] Started resource hud
+[    c-scripting-core] Creating script environments for Cypher_menu
+[           resources] Started resource Cypher_menu
+[    c-scripting-core] Creating script environments for ui-skinchanger
+[           resources] Started resource ui-skinchanger
+[ citizen-server-impl] Could not open logo.png for reading.
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[      script:oxmysql] [12.2.2-MariaDB] Database server connection established!
+[script:Core_CypherDe] [framework] [INFO] ESX Framework developed by Cypher has been initialized
+[      script:oxmysql] Warning: Core_CypherDev executed a query with an oversized result set (1055 results)!
+[      script:oxmysql] SELECT * FROM owned_vehicles
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://cypherdev-qqa7v79.users.cfx.re/
+[      script:oxmysql] An update is available for oxmysql (current version: 2.10.1)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.14.1
+[script:Core_CypherDe] 
+[script:Core_CypherDe]           _               _       _            _____ 
+[script:Core_CypherDe]     /\   | |             | |     | |     /\   / ____|
+[script:Core_CypherDe]    /  \  | |__  ___  ___ | |_   _| |_   /  \ | |     
+[script:Core_CypherDe]   / /\ \ | |_ \/ __|/ _ \| | | | | __| / /\ \| |     
+[script:Core_CypherDe]  / ____ \| |_) \__ \ (_) | | |_| | |_ / ____ \ |____ 
+[script:Core_CypherDe] /_/    \_\____/|___/\___/|_|\__,_|\__/_/    \_\_____|
+[script:Core_CypherDe] 
+[script:Core_CypherDe] Loaded Anticheat Banlist
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/info.json (Get "https://24.230.248.113:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[          script:hud] [ERROR] xPlayer is nil for source: 1
+[                 cmd] Access denied for command add_principal.
+[script:Core_CypherDe] [framework] [INFO] A player with name "BoldTurtle9177" has connected to the server with assigned player id 1
+[script:Core_CypherDe] La BanList a ete charger avec succes.
+[script:Core_CypherDe] La BanListHistory a ete charger avec succes.
+[script:Core_CypherDe] Saved:
+[script:Core_CypherDe] Cypher
+[script:Core_CypherDe] Dev
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"CypherDev\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [22480] FXServer Starting - 2026-06-07, 09 h 57 min 13 s
+║             TXADMIN║ ================================================================
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[           resources] Scanning resources.
+[           resources] Found 19 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[    c-scripting-core] Creating script environments for Core_CypherDev
+[script:Core_CypherDe] creator:updateId
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_1.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource Core_CypherDev (12 warnings)
+[           resources] Started resource notifications
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[resources:policeint:] Asset policeint/gabz_mrpd_txd.ytd uses 38.5 MiB of physical memory.
+[           resources] Started resource policeint (1 warning)
+[           resources] Started resource putin-dialog
+[resources:vehicles:s] Asset vehicles/18performante.yft uses 22.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/18performante.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/20x5m.ytd uses 66.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/a45_hi.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.ytd uses 44.5 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/bg700w_hi.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.ytd uses 118.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/bmwm8_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.yft uses 20.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo2.ytd uses 82.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo3.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/kx450f.ytd uses 28.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/pts21.ytd uses 92.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodgt63.yft uses 18.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.ytd uses 22.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.yft uses 19.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.ytd uses 48.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6_hi.yft uses 16.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs318_hi.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.ytd uses 94.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs7r_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX_hi.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.yft uses 21.3 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/urus_hi.yft uses 18.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/veneno.ytd uses 192.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/xadv.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/yzfsm.ytd uses 48.0 MiB of physical memory.
+[           resources] Started resource vehicles (44 warnings)
+[    c-scripting-core] Creating script environments for ArmurerieUI
+[           resources] Started resource ArmurerieUI
+[    c-scripting-core] Creating script environments for CypherDev_UI
+[           resources] Started resource CypherDev_UI
+[    c-scripting-core] Creating script environments for CypherDev_inventory
+[           resources] Started resource CypherDev_inventory
+[    c-scripting-core] Creating script environments for CypherDev_menu
+[           resources] Started resource CypherDev_menu
+[    c-scripting-core] Creating script environments for banking
+[           resources] Started resource banking
+[           resources] Started resource gunfightui
+[    c-scripting-core] Creating script environments for hud
+[           resources] Started resource hud
+[    c-scripting-core] Creating script environments for ui-skinchanger
+[           resources] Started resource ui-skinchanger
+[ citizen-server-impl] Could not open logo.png for reading.
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[      script:oxmysql] [12.2.2-MariaDB] Database server connection established!
+[script:Core_CypherDe] [framework] [INFO] ESX Framework developed by Cypher has been initialized
+[      script:oxmysql] Warning: Core_CypherDev executed a query with an oversized result set (1055 results)!
+[      script:oxmysql] SELECT * FROM owned_vehicles
+[      script:oxmysql] An update is available for oxmysql (current version: 2.10.1)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.14.1
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://cypherdev-qqa7v79.users.cfx.re/
+[script:Core_CypherDe] 
+[script:Core_CypherDe]           _               _       _            _____ 
+[script:Core_CypherDe]     /\   | |             | |     | |     /\   / ____|
+[script:Core_CypherDe]    /  \  | |__  ___  ___ | |_   _| |_   /  \ | |     
+[script:Core_CypherDe]   / /\ \ | |_ \/ __|/ _ \| | | | | __| / /\ \| |     
+[script:Core_CypherDe]  / ____ \| |_) \__ \ (_) | | |_| | |_ / ____ \ |____ 
+[script:Core_CypherDe] /_/    \_\____/|___/\___/|_|\__,_|\__/_/    \_\_____|
+[script:Core_CypherDe] 
+[script:Core_CypherDe] Loaded Anticheat Banlist
+[script:Core_CypherDe] La BanList a ete charger avec succes.
+[script:Core_CypherDe] La BanListHistory a ete charger avec succes.
+[ citizen-server-impl] network thread hitch warning: timer interval of 164 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 168 milliseconds
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/dynamic.json (Get "https://24.230.248.113:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[          script:hud] [ERROR] xPlayer is nil for source: 1
+[                 cmd] Access denied for command add_principal.
+[script:Core_CypherDe] [framework] [INFO] A player with name "BoldTurtle9177" has connected to the server with assigned player id 1
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/dynamic.json (Get "https://24.230.248.113:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/info.json (Get "https://24.230.248.113:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[          script:hud] [ERROR] xPlayer is nil for source: 2
+[                 cmd] Access denied for command add_principal.
+[script:Core_CypherDe] [framework] [INFO] A player with name "BoldTurtle9177" has connected to the server with assigned player id 2
+║           CypherDev║ ensure BaseNyseraDev_ByCypher
+[ citizen-server-impl] Couldn't find resource BaseNyseraDev_ByCypher.
+║           CypherDev║ refresh
+[           resources] Scanning resources.
+[           resources] Found 3 new resources, and refreshed 0/16 resources.
+║           CypherDev║ ensure BaseNyseraDev_ByCypher
+[ citizen-server-impl] Couldn't find resource BaseNyseraDev_ByCypher.
+║           CypherDev║ ensure Core_CypherDev
+[           resources] Stopping resource Core_CypherDev
+[    c-scripting-core] Creating script environments for Core_CypherDev
+[script:Core_CypherDe] [framework] [INFO] ESX Framework developed by Cypher has been initialized
+[script:Core_CypherDe] creator:updateId
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_1.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource Core_CypherDev (12 warnings)
+[      script:oxmysql] Warning: Core_CypherDev executed a query with an oversized result set (1055 results)!
+[      script:oxmysql] SELECT * FROM owned_vehicles
+[ citizen-server-impl] server thread hitch warning: timer interval of 656 milliseconds
+[                 cmd] Access denied for command add_principal.
+[script:Core_CypherDe] [framework] [INFO] A player with name "BoldTurtle9177" has connected to the server with assigned player id 2
+[script:Core_CypherDe] 
+[script:Core_CypherDe]           _               _       _            _____ 
+[script:Core_CypherDe]     /\   | |             | |     | |     /\   / ____|
+[script:Core_CypherDe]    /  \  | |__  ___  ___ | |_   _| |_   /  \ | |     
+[script:Core_CypherDe]   / /\ \ | |_ \/ __|/ _ \| | | | | __| / /\ \| |     
+[script:Core_CypherDe]  / ____ \| |_) \__ \ (_) | | |_| | |_ / ____ \ |____ 
+[script:Core_CypherDe] /_/    \_\____/|___/\___/|_|\__,_|\__/_/    \_\_____|
+[script:Core_CypherDe] 
+[script:Core_CypherDe] Loaded Anticheat Banlist
+[script:Core_CypherDe] La BanList a ete charger avec succes.
+[script:Core_CypherDe] La BanListHistory a ete charger avec succes.
+║           CypherDev║ ensure Core_CypherDev
+[           resources] Stopping resource Core_CypherDev
+[    c-scripting-core] Creating script environments for Core_CypherDev
+[script:Core_CypherDe] [framework] [INFO] ESX Framework developed by Cypher has been initialized
+[script:Core_CypherDe] creator:updateId
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_1.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource Core_CypherDev (12 warnings)
+[      script:oxmysql] Warning: Core_CypherDev executed a query with an oversized result set (1055 results)!
+[      script:oxmysql] SELECT * FROM owned_vehicles
+[ citizen-server-impl] server thread hitch warning: timer interval of 580 milliseconds
+[                 cmd] Access denied for command add_principal.
+[script:Core_CypherDe] [framework] [INFO] A player with name "BoldTurtle9177" has connected to the server with assigned player id 2
+[script:Core_CypherDe] 
+[script:Core_CypherDe]           _               _       _            _____ 
+[script:Core_CypherDe]     /\   | |             | |     | |     /\   / ____|
+[script:Core_CypherDe]    /  \  | |__  ___  ___ | |_   _| |_   /  \ | |     
+[script:Core_CypherDe]   / /\ \ | |_ \/ __|/ _ \| | | | | __| / /\ \| |     
+[script:Core_CypherDe]  / ____ \| |_) \__ \ (_) | | |_| | |_ / ____ \ |____ 
+[script:Core_CypherDe] /_/    \_\____/|___/\___/|_|\__,_|\__/_/    \_\_____|
+[script:Core_CypherDe] 
+[script:Core_CypherDe] Loaded Anticheat Banlist
+[script:Core_CypherDe] La BanList a ete charger avec succes.
+[script:Core_CypherDe] La BanListHistory a ete charger avec succes.
+[ citizen-server-impl] server thread hitch warning: timer interval of 183 milliseconds
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/players.json (Get "https://24.230.248.113:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/info.json (Get "https://24.230.248.113:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"CypherDev\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [28500] FXServer Starting - 2026-06-07, 10 h 10 min 11 s
+║             TXADMIN║ ================================================================
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[           resources] Scanning resources.
+[           resources] Found 19 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[    c-scripting-core] Creating script environments for Core_CypherDev
+[script:Core_CypherDe] creator:updateId
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_1.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource Core_CypherDev (12 warnings)
+[           resources] Started resource notifications
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[resources:policeint:] Asset policeint/gabz_mrpd_txd.ytd uses 38.5 MiB of physical memory.
+[           resources] Started resource policeint (1 warning)
+[           resources] Started resource putin-dialog
+[resources:vehicles:s] Asset vehicles/18performante.yft uses 22.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/18performante.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/20x5m.ytd uses 66.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/a45_hi.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.ytd uses 44.5 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/bg700w_hi.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.ytd uses 118.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/bmwm8_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.yft uses 20.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo2.ytd uses 82.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo3.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/kx450f.ytd uses 28.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/pts21.ytd uses 92.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodgt63.yft uses 18.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.ytd uses 22.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.yft uses 19.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.ytd uses 48.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6_hi.yft uses 16.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs318_hi.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.ytd uses 94.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs7r_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX_hi.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.yft uses 21.3 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/urus_hi.yft uses 18.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/veneno.ytd uses 192.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/xadv.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/yzfsm.ytd uses 48.0 MiB of physical memory.
+[           resources] Started resource vehicles (44 warnings)
+[    c-scripting-core] Creating script environments for ArmurerieUI
+[           resources] Started resource ArmurerieUI
+[    c-scripting-core] Creating script environments for banking
+[           resources] Started resource banking
+[    c-scripting-core] Creating script environments for cypherdev_inventory
+[           resources] Started resource cypherdev_inventory
+[    c-scripting-core] Creating script environments for cypherdev_menu
+[           resources] Started resource cypherdev_menu
+[    c-scripting-core] Creating script environments for cypherdev_ui
+[           resources] Started resource cypherdev_ui
+[           resources] Started resource gunfightui
+[    c-scripting-core] Creating script environments for hud
+[           resources] Started resource hud
+[    c-scripting-core] Creating script environments for ui-skinchanger
+[           resources] Started resource ui-skinchanger
+[ citizen-server-impl] Could not open logo.png for reading.
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[      script:oxmysql] [12.2.2-MariaDB] Database server connection established!
+[script:Core_CypherDe] [framework] [INFO] ESX Framework developed by Cypher has been initialized
+[      script:oxmysql] Warning: Core_CypherDev executed a query with an oversized result set (1055 results)!
+[      script:oxmysql] SELECT * FROM owned_vehicles
+[      script:oxmysql] An update is available for oxmysql (current version: 2.10.1)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.14.1
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://cypherdev-qqa7v79.users.cfx.re/
+[script:Core_CypherDe] 
+[script:Core_CypherDe]           _               _       _            _____ 
+[script:Core_CypherDe]     /\   | |             | |     | |     /\   / ____|
+[script:Core_CypherDe]    /  \  | |__  ___  ___ | |_   _| |_   /  \ | |     
+[script:Core_CypherDe]   / /\ \ | |_ \/ __|/ _ \| | | | | __| / /\ \| |     
+[script:Core_CypherDe]  / ____ \| |_) \__ \ (_) | | |_| | |_ / ____ \ |____ 
+[script:Core_CypherDe] /_/    \_\____/|___/\___/|_|\__,_|\__/_/    \_\_____|
+[script:Core_CypherDe] 
+[script:Core_CypherDe] Loaded Anticheat Banlist
+[script:Core_CypherDe] La BanList a ete charger avec succes.
+[script:Core_CypherDe] La BanListHistory a ete charger avec succes.
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/players.json (Get "https://24.230.248.113:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[          script:hud] [ERROR] xPlayer is nil for source: 1
+[                 cmd] Access denied for command add_principal.
+[script:Core_CypherDe] [framework] [INFO] A player with name "BoldTurtle9177" has connected to the server with assigned player id 1
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/players.json (Get "https://24.230.248.113:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/players.json (Get "https://24.230.248.113:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/players.json (Get "https://24.230.248.113:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/players.json (Get "https://24.230.248.113:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/players.json (Get "https://24.230.248.113:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/dynamic.json (Get "https://24.230.248.113:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/players.json (Get "https://24.230.248.113:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/info.json (Get "https://24.230.248.113:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/dynamic.json (Get "https://24.230.248.113:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/dynamic.json (Get "https://24.230.248.113:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/info.json (Get "https://24.230.248.113:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/info.json (Get "https://24.230.248.113:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/dynamic.json (Get "https://24.230.248.113:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/dynamic.json (Get "https://24.230.248.113:30120/dynamic.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"CypherDev\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [22708] FXServer Starting - 2026-06-07, 11 h 25 min 58 s
+║             TXADMIN║ ================================================================
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[           resources] Scanning resources.
+[           resources] Found 19 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[    c-scripting-core] Creating script environments for Core_CypherDev
+[script:Core_CypherDe] creator:updateId
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_1.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource Core_CypherDev (12 warnings)
+[           resources] Started resource notifications
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[resources:policeint:] Asset policeint/gabz_mrpd_txd.ytd uses 38.5 MiB of physical memory.
+[           resources] Started resource policeint (1 warning)
+[           resources] Started resource putin-dialog
+[resources:vehicles:s] Asset vehicles/18performante.yft uses 22.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/18performante.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/20x5m.ytd uses 66.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/a45_hi.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.ytd uses 44.5 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/bg700w_hi.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.ytd uses 118.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/bmwm8_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.yft uses 20.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo2.ytd uses 82.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo3.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/kx450f.ytd uses 28.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/pts21.ytd uses 92.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodgt63.yft uses 18.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.ytd uses 22.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.yft uses 19.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.ytd uses 48.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6_hi.yft uses 16.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs318_hi.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.ytd uses 94.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs7r_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX_hi.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.yft uses 21.3 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/urus_hi.yft uses 18.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/veneno.ytd uses 192.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/xadv.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/yzfsm.ytd uses 48.0 MiB of physical memory.
+[           resources] Started resource vehicles (44 warnings)
+[    c-scripting-core] Creating script environments for ArmurerieUI
+[           resources] Started resource ArmurerieUI
+[    c-scripting-core] Creating script environments for banking
+[           resources] Started resource banking
+[    c-scripting-core] Creating script environments for cypherdev_inventory
+[           resources] Started resource cypherdev_inventory
+[    c-scripting-core] Creating script environments for cypherdev_menu
+[           resources] Started resource cypherdev_menu
+[    c-scripting-core] Creating script environments for cypherdev_ui
+[           resources] Started resource cypherdev_ui
+[           resources] Started resource gunfightui
+[    c-scripting-core] Creating script environments for hud
+[          script:hud] SCRIPT ERROR: @hud/server.lua:1: No such export getSharedObject in resource Core_CypherDev
+[           resources] Started resource hud
+[    c-scripting-core] Creating script environments for ui-skinchanger
+[           resources] Started resource ui-skinchanger
+[ citizen-server-impl] Could not open logo.png for reading.
+[                 cmd] No such command sv_master.
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[      script:oxmysql] [12.2.2-MariaDB] Database server connection established!
+[script:Core_CypherDe] [framework] [INFO] ESX Framework developed by Cypher has been initialized
+[      script:oxmysql] Warning: Core_CypherDev executed a query with an oversized result set (1055 results)!
+[      script:oxmysql] SELECT * FROM owned_vehicles
+[      script:oxmysql] An update is available for oxmysql (current version: 2.10.1)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.14.1
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://cypherdev-qqa7v79.users.cfx.re/
+[script:Core_CypherDe] 
+[script:Core_CypherDe]           _               _       _            _____ 
+[script:Core_CypherDe]     /\   | |             | |     | |     /\   / ____|
+[script:Core_CypherDe]    /  \  | |__  ___  ___ | |_   _| |_   /  \ | |     
+[script:Core_CypherDe]   / /\ \ | |_ \/ __|/ _ \| | | | | __| / /\ \| |     
+[script:Core_CypherDe]  / ____ \| |_) \__ \ (_) | | |_| | |_ / ____ \ |____ 
+[script:Core_CypherDe] /_/    \_\____/|___/\___/|_|\__,_|\__/_/    \_\_____|
+[script:Core_CypherDe] 
+[script:Core_CypherDe] Loaded Anticheat Banlist
+[script:Core_CypherDe] La BanList a ete charger avec succes.
+[script:Core_CypherDe] La BanListHistory a ete charger avec succes.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[                 cmd] Access denied for command add_principal.
+[script:Core_CypherDe] [framework] [INFO] A player with name "BoldTurtle9177" has connected to the server with assigned player id 1
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/info.json (Get "https://24.230.248.113:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/info.json (Get "https://24.230.248.113:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+[script:Core_CypherDe] [framework] [WARNING] Server callback "NyseraRPHUD:getPlayerMoney" does not exist. Make sure that the server sided file really is loading, an error in that file might cause it to not load.
+║           CypherDev║ restart hud
+[           resources] Stopping resource hud
+[    c-scripting-core] Creating script environments for hud
+[           resources] Started resource hud
+║           CypherDev║ ensure nysera_loading
+[ citizen-server-impl] Couldn't find resource nysera_loading.
+║           CypherDev║ refresh
+[           resources] Scanning resources.
+[           resources] Found 1 new resources, and refreshed 0/19 resources.
+║           CypherDev║ ensure nysera_loading
+[resources:nysera_loa] Warning: could not find file `music.mp3` (defined in fxmanifest.lua:6)
+[resources:nysera_loa] Warning: could not find file `background.mp4` (defined in fxmanifest.lua:6)
+[           resources] Started resource nysera_loading (2 warnings)
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/info.json (Get "https://24.230.248.113:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"CypherDev\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [16932] FXServer Starting - 2026-06-07, 11 h 34 min 16 s
+║             TXADMIN║ ================================================================
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[           resources] Scanning resources.
+[           resources] Found 20 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[    c-scripting-core] Creating script environments for Core_CypherDev
+[script:Core_CypherDe] creator:updateId
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_1.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource Core_CypherDev (12 warnings)
+[           resources] Started resource notifications
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[resources:policeint:] Asset policeint/gabz_mrpd_txd.ytd uses 38.5 MiB of physical memory.
+[           resources] Started resource policeint (1 warning)
+[           resources] Started resource putin-dialog
+[resources:vehicles:s] Asset vehicles/18performante.yft uses 22.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/18performante.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/20x5m.ytd uses 66.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/a45_hi.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.ytd uses 44.5 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/bg700w_hi.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.ytd uses 118.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/bmwm8_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.yft uses 20.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo2.ytd uses 82.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo3.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/kx450f.ytd uses 28.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/pts21.ytd uses 92.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodgt63.yft uses 18.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.ytd uses 22.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.yft uses 19.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.ytd uses 48.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6_hi.yft uses 16.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs318_hi.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.ytd uses 94.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs7r_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX_hi.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.yft uses 21.3 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/urus_hi.yft uses 18.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/veneno.ytd uses 192.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/xadv.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/yzfsm.ytd uses 48.0 MiB of physical memory.
+[           resources] Started resource vehicles (44 warnings)
+[    c-scripting-core] Creating script environments for ArmurerieUI
+[           resources] Started resource ArmurerieUI
+[    c-scripting-core] Creating script environments for banking
+[           resources] Started resource banking
+[    c-scripting-core] Creating script environments for cypherdev_inventory
+[           resources] Started resource cypherdev_inventory
+[    c-scripting-core] Creating script environments for cypherdev_menu
+[           resources] Started resource cypherdev_menu
+[    c-scripting-core] Creating script environments for cypherdev_ui
+[           resources] Started resource cypherdev_ui
+[           resources] Started resource gunfightui
+[    c-scripting-core] Creating script environments for hud
+[           resources] Started resource hud
+[           resources] Started resource nysera_loading
+[    c-scripting-core] Creating script environments for ui-skinchanger
+[           resources] Started resource ui-skinchanger
+[ citizen-server-impl] Could not open logo.png for reading.
+[                 cmd] No such command sv_master.
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[      script:oxmysql] [12.2.2-MariaDB] Database server connection established!
+[script:Core_CypherDe] [framework] [INFO] ESX Framework developed by Cypher has been initialized
+[      script:oxmysql] Warning: Core_CypherDev executed a query with an oversized result set (1055 results)!
+[      script:oxmysql] SELECT * FROM owned_vehicles
+[      script:oxmysql] An update is available for oxmysql (current version: 2.10.1)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.14.1
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://cypherdev-qqa7v79.users.cfx.re/
+[script:Core_CypherDe] 
+[script:Core_CypherDe]           _               _       _            _____ 
+[script:Core_CypherDe]     /\   | |             | |     | |     /\   / ____|
+[script:Core_CypherDe]    /  \  | |__  ___  ___ | |_   _| |_   /  \ | |     
+[script:Core_CypherDe]   / /\ \ | |_ \/ __|/ _ \| | | | | __| / /\ \| |     
+[script:Core_CypherDe]  / ____ \| |_) \__ \ (_) | | |_| | |_ / ____ \ |____ 
+[script:Core_CypherDe] /_/    \_\____/|___/\___/|_|\__,_|\__/_/    \_\_____|
+[script:Core_CypherDe] 
+[script:Core_CypherDe] Loaded Anticheat Banlist
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"CypherDev\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [8496] FXServer Starting - 2026-06-07, 11 h 34 min 37 s
+║             TXADMIN║ ================================================================
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[           resources] Scanning resources.
+[           resources] Found 20 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[    c-scripting-core] Creating script environments for Core_CypherDev
+[script:Core_CypherDe] creator:updateId
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_1.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource Core_CypherDev (12 warnings)
+[           resources] Started resource notifications
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[resources:policeint:] Asset policeint/gabz_mrpd_txd.ytd uses 38.5 MiB of physical memory.
+[           resources] Started resource policeint (1 warning)
+[           resources] Started resource putin-dialog
+[resources:vehicles:s] Asset vehicles/18performante.yft uses 22.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/18performante.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/20x5m.ytd uses 66.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/a45_hi.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.ytd uses 44.5 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/bg700w_hi.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.ytd uses 118.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/bmwm8_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.yft uses 20.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo2.ytd uses 82.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo3.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/kx450f.ytd uses 28.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/pts21.ytd uses 92.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodgt63.yft uses 18.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.ytd uses 22.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.yft uses 19.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.ytd uses 48.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6_hi.yft uses 16.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs318_hi.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.ytd uses 94.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs7r_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX_hi.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.yft uses 21.3 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/urus_hi.yft uses 18.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/veneno.ytd uses 192.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/xadv.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/yzfsm.ytd uses 48.0 MiB of physical memory.
+[           resources] Started resource vehicles (44 warnings)
+[    c-scripting-core] Creating script environments for ArmurerieUI
+[           resources] Started resource ArmurerieUI
+[    c-scripting-core] Creating script environments for banking
+[           resources] Started resource banking
+[    c-scripting-core] Creating script environments for cypherdev_inventory
+[           resources] Started resource cypherdev_inventory
+[    c-scripting-core] Creating script environments for cypherdev_menu
+[           resources] Started resource cypherdev_menu
+[    c-scripting-core] Creating script environments for cypherdev_ui
+[           resources] Started resource cypherdev_ui
+[           resources] Started resource gunfightui
+[    c-scripting-core] Creating script environments for hud
+[           resources] Started resource hud
+[           resources] Started resource nysera_loading
+[    c-scripting-core] Creating script environments for ui-skinchanger
+[           resources] Started resource ui-skinchanger
+[ citizen-server-impl] Could not open logo.png for reading.
+[                 cmd] No such command sv_master.
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[      script:oxmysql] [12.2.2-MariaDB] Database server connection established!
+[script:Core_CypherDe] [framework] [INFO] ESX Framework developed by Cypher has been initialized
+[      script:oxmysql] Warning: Core_CypherDev executed a query with an oversized result set (1055 results)!
+[      script:oxmysql] SELECT * FROM owned_vehicles
+[      script:oxmysql] An update is available for oxmysql (current version: 2.10.1)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.14.1
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://cypherdev-qqa7v79.users.cfx.re/
+[script:Core_CypherDe] 
+[script:Core_CypherDe]           _               _       _            _____ 
+[script:Core_CypherDe]     /\   | |             | |     | |     /\   / ____|
+[script:Core_CypherDe]    /  \  | |__  ___  ___ | |_   _| |_   /  \ | |     
+[script:Core_CypherDe]   / /\ \ | |_ \/ __|/ _ \| | | | | __| / /\ \| |     
+[script:Core_CypherDe]  / ____ \| |_) \__ \ (_) | | |_| | |_ / ____ \ |____ 
+[script:Core_CypherDe] /_/    \_\____/|___/\___/|_|\__,_|\__/_/    \_\_____|
+[script:Core_CypherDe] 
+[script:Core_CypherDe] Loaded Anticheat Banlist
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/info.json (Get "https://24.230.248.113:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[          script:hud] [ERROR] xPlayer is nil for source: 1
+[                 cmd] Access denied for command add_principal.
+[script:Core_CypherDe] [framework] [INFO] A player with name "BoldTurtle9177" has connected to the server with assigned player id 1
+[script:Core_CypherDe] La BanList a ete charger avec succes.
+[script:Core_CypherDe] La BanListHistory a ete charger avec succes.
+║           CypherDev║ setgroup 1 supeardmin
+║           CypherDev║ setgroup 1 superadmin
+║           CypherDev║ ensure [Cypher]
+[           resources] Stopping resource Core_CypherDev
+[    c-scripting-core] Creating script environments for Core_CypherDev
+[script:Core_CypherDe] [framework] [INFO] ESX Framework developed by Cypher has been initialized
+[script:Core_CypherDe] creator:updateId
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_1.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource Core_CypherDev (12 warnings)
+[           resources] Stopping resource notifications
+[           resources] Started resource notifications
+[           resources] Stopping resource pma-voice
+[ citizen-server-impl] server thread hitch warning: timer interval of 593 milliseconds
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[           resources] Stopping resource policeint
+[resources:policeint:] Asset policeint/gabz_mrpd_txd.ytd uses 38.5 MiB of physical memory.
+[           resources] Started resource policeint (1 warning)
+[           resources] Stopping resource putin-dialog
+[           resources] Started resource putin-dialog
+[           resources] Stopping resource vehicles
+[resources:vehicles:s] Asset vehicles/18performante.yft uses 22.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/18performante.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/20x5m.ytd uses 66.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/a45_hi.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.ytd uses 44.5 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/bg700w_hi.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.ytd uses 118.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/bmwm8_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.yft uses 20.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo2.ytd uses 82.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo3.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/kx450f.ytd uses 28.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/pts21.ytd uses 92.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodgt63.yft uses 18.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.ytd uses 22.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.yft uses 19.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.ytd uses 48.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6_hi.yft uses 16.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs318_hi.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.ytd uses 94.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs7r_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX_hi.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.yft uses 21.3 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/urus_hi.yft uses 18.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/veneno.ytd uses 192.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/xadv.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/yzfsm.ytd uses 48.0 MiB of physical memory.
+[           resources] Started resource vehicles (44 warnings)
+[      script:oxmysql] [12.2.2-MariaDB] Core_CypherDev took 1130.0721ms to execute a query!
+[      script:oxmysql] SELECT * FROM users []
+[      script:oxmysql] [12.2.2-MariaDB] Core_CypherDev took 1136.0402ms to execute a query!
+[      script:oxmysql] SELECT * FROM datastore_data WHERE name = ? ["property"]
+[      script:oxmysql] [12.2.2-MariaDB] Core_CypherDev took 1158.6176ms to execute a query!
+[      script:oxmysql] SELECT * FROM addon_account_data WHERE account_name = ? ["property_black_money"]
+[      script:oxmysql] [12.2.2-MariaDB] Core_CypherDev took 1167.6828ms to execute a query!
+[      script:oxmysql] SELECT * FROM owned_vehicles []
+[      script:oxmysql] Warning: Core_CypherDev executed a query with an oversized result set (1055 results)!
+[      script:oxmysql] SELECT * FROM owned_vehicles
+[      script:oxmysql] [12.2.2-MariaDB] Core_CypherDev took 1175.3500ms to execute a query!
+[      script:oxmysql] SELECT * FROM addon_inventory_items WHERE inventory_name = ? ["property"]
+[ citizen-server-impl] server thread hitch warning: timer interval of 1176 milliseconds
+[                 cmd] Access denied for command add_principal.
+[script:Core_CypherDe] [framework] [INFO] A player with name "BoldTurtle9177" has connected to the server with assigned player id 1
+[script:Core_CypherDe] 
+[script:Core_CypherDe]           _               _       _            _____ 
+[script:Core_CypherDe]     /\   | |             | |     | |     /\   / ____|
+[script:Core_CypherDe]    /  \  | |__  ___  ___ | |_   _| |_   /  \ | |     
+[script:Core_CypherDe]   / /\ \ | |_ \/ __|/ _ \| | | | | __| / /\ \| |     
+[script:Core_CypherDe]  / ____ \| |_) \__ \ (_) | | |_| | |_ / ____ \ |____ 
+[script:Core_CypherDe] /_/    \_\____/|___/\___/|_|\__,_|\__/_/    \_\_____|
+[script:Core_CypherDe] 
+[script:Core_CypherDe] Loaded Anticheat Banlist
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/info.json (Get "https://24.230.248.113:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[script:Core_CypherDe] La BanList a ete charger avec succes.
+[script:Core_CypherDe] La BanListHistory a ete charger avec succes.
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"CypherDev\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [17304] FXServer Starting - 2026-06-07, 11 h 39 min 20 s
+║             TXADMIN║ ================================================================
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[           resources] Scanning resources.
+[           resources] Found 20 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[    c-scripting-core] Creating script environments for Core_CypherDev
+[script:Core_CypherDe] creator:updateId
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_1.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource Core_CypherDev (12 warnings)
+[           resources] Started resource notifications
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[resources:policeint:] Asset policeint/gabz_mrpd_txd.ytd uses 38.5 MiB of physical memory.
+[           resources] Started resource policeint (1 warning)
+[           resources] Started resource putin-dialog
+[resources:vehicles:s] Asset vehicles/18performante.yft uses 22.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/18performante.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/20x5m.ytd uses 66.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/a45_hi.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.ytd uses 44.5 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/bg700w_hi.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.ytd uses 118.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/bmwm8_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.yft uses 20.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo2.ytd uses 82.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo3.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/kx450f.ytd uses 28.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/pts21.ytd uses 92.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodgt63.yft uses 18.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.ytd uses 22.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.yft uses 19.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.ytd uses 48.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6_hi.yft uses 16.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs318_hi.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.ytd uses 94.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs7r_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX_hi.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.yft uses 21.3 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/urus_hi.yft uses 18.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/veneno.ytd uses 192.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/xadv.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/yzfsm.ytd uses 48.0 MiB of physical memory.
+[           resources] Started resource vehicles (44 warnings)
+[    c-scripting-core] Creating script environments for ArmurerieUI
+[           resources] Started resource ArmurerieUI
+[    c-scripting-core] Creating script environments for banking
+[           resources] Started resource banking
+[    c-scripting-core] Creating script environments for cypherdev_inventory
+[           resources] Started resource cypherdev_inventory
+[    c-scripting-core] Creating script environments for cypherdev_menu
+[           resources] Started resource cypherdev_menu
+[    c-scripting-core] Creating script environments for cypherdev_ui
+[           resources] Started resource cypherdev_ui
+[           resources] Started resource gunfightui
+[    c-scripting-core] Creating script environments for hud
+[           resources] Started resource hud
+[           resources] Started resource nysera_loading
+[    c-scripting-core] Creating script environments for ui-skinchanger
+[           resources] Started resource ui-skinchanger
+[ citizen-server-impl] Could not open logo.png for reading.
+[                 cmd] No such command sv_master.
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[      script:oxmysql] [12.2.2-MariaDB] Database server connection established!
+[script:Core_CypherDe] [framework] [INFO] ESX Framework developed by Cypher has been initialized
+[      script:oxmysql] Warning: Core_CypherDev executed a query with an oversized result set (1055 results)!
+[      script:oxmysql] SELECT * FROM owned_vehicles
+[      script:oxmysql] An update is available for oxmysql (current version: 2.10.1)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.14.1
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://cypherdev-qqa7v79.users.cfx.re/
+[script:Core_CypherDe] 
+[script:Core_CypherDe]           _               _       _            _____ 
+[script:Core_CypherDe]     /\   | |             | |     | |     /\   / ____|
+[script:Core_CypherDe]    /  \  | |__  ___  ___ | |_   _| |_   /  \ | |     
+[script:Core_CypherDe]   / /\ \ | |_ \/ __|/ _ \| | | | | __| / /\ \| |     
+[script:Core_CypherDe]  / ____ \| |_) \__ \ (_) | | |_| | |_ / ____ \ |____ 
+[script:Core_CypherDe] /_/    \_\____/|___/\___/|_|\__,_|\__/_/    \_\_____|
+[script:Core_CypherDe] 
+[script:Core_CypherDe] Loaded Anticheat Banlist
+[script:Core_CypherDe] La BanList a ete charger avec succes.
+[script:Core_CypherDe] La BanListHistory a ete charger avec succes.
+[          script:hud] [ERROR] xPlayer is nil for source: 1
+[                 cmd] Access denied for command add_principal.
+[script:Core_CypherDe] [framework] [INFO] A player with name "BoldTurtle9177" has connected to the server with assigned player id 1
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/players.json (Get "https://24.230.248.113:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║             TXADMIN║ txaEvent "serverShuttingDown" "{\"delay\":5000,\"author\":\"CypherDev\",\"message\":\"Server restarting (admin request).\"}"
+[      script:monitor] [txAdmin] Server shutting down. Kicking all players.
+
+║             TXADMIN║ ================================================================
+║             TXADMIN║ ======== [24336] FXServer Starting - 2026-06-07, 11 h 44 min 05 s
+║             TXADMIN║ ================================================================
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[           resources] Scanning resources.
+[           resources] Found 20 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v8.0.1 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[    c-scripting-core] Creating script environments for Core_CypherDev
+[script:Core_CypherDe] creator:updateId
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_1.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource Core_CypherDev (12 warnings)
+[           resources] Started resource notifications
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[resources:policeint:] Asset policeint/gabz_mrpd_txd.ytd uses 38.5 MiB of physical memory.
+[           resources] Started resource policeint (1 warning)
+[           resources] Started resource putin-dialog
+[resources:vehicles:s] Asset vehicles/18performante.yft uses 22.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/18performante.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/20x5m.ytd uses 66.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/20x5m_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/a45.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/a45_hi.yft uses 18.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bg700w.ytd uses 44.5 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/bg700w_hi.yft uses 16.6 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/bmwm8.ytd uses 118.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/bmwm8_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.yft uses 20.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/dodgeEMS.ytd uses 70.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo2.ytd uses 82.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/ghispo3.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/kx450f.ytd uses 28.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/pts21.ytd uses 92.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodgt63.yft uses 18.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodi8ks.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.yft uses 16.9 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodmi8lb.ytd uses 22.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.yft uses 19.2 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6.ytd uses 48.0 MiB of physical memory.
+[resources:vehicles:s] Asset vehicles/rmodrs6_hi.yft uses 16.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs318.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs318_hi.yft uses 32.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/rs7r.ytd uses 94.5 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/rs7r_hi.yft uses 26.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/tmaxDX_hi.yft uses 24.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.yft uses 21.3 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/urus.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/urus_hi.yft uses 18.8 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/veneno.ytd uses 192.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/xadv.ytd uses 74.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[resources:vehicles:s] Asset vehicles/xadv_hi.yft uses 23.5 MiB of virtual memory.
+[resources:vehicles:s] Asset vehicles/yzfsm.ytd uses 48.0 MiB of physical memory.
+[           resources] Started resource vehicles (44 warnings)
+[    c-scripting-core] Creating script environments for ArmurerieUI
+[           resources] Started resource ArmurerieUI
+[    c-scripting-core] Creating script environments for banking
+[           resources] Started resource banking
+[    c-scripting-core] Creating script environments for cypherdev_inventory
+[           resources] Started resource cypherdev_inventory
+[    c-scripting-core] Creating script environments for cypherdev_menu
+[           resources] Started resource cypherdev_menu
+[    c-scripting-core] Creating script environments for cypherdev_ui
+[           resources] Started resource cypherdev_ui
+[           resources] Started resource gunfightui
+[    c-scripting-core] Creating script environments for hud
+[           resources] Started resource hud
+[           resources] Started resource nysera_loading
+[    c-scripting-core] Creating script environments for ui-skinchanger
+[           resources] Started resource ui-skinchanger
+[ citizen-server-impl] Could not open logo.png for reading.
+[                 cmd] No such command sv_master.
+[                 cmd] Argument count mismatch (passed 1, wanted 2)
+[      script:oxmysql] [12.2.2-MariaDB] Database server connection established!
+[script:Core_CypherDe] [framework] [INFO] ESX Framework developed by Cypher has been initialized
+[      script:oxmysql] Warning: Core_CypherDev executed a query with an oversized result set (1055 results)!
+[      script:oxmysql] SELECT * FROM owned_vehicles
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://cypherdev-qqa7v79.users.cfx.re/
+[      script:oxmysql] An update is available for oxmysql (current version: 2.10.1)
+[      script:oxmysql] https://github.com/overextended/oxmysql/releases/tag/v2.14.1
+[script:Core_CypherDe] 
+[script:Core_CypherDe]           _               _       _            _____ 
+[script:Core_CypherDe]     /\   | |             | |     | |     /\   / ____|
+[script:Core_CypherDe]    /  \  | |__  ___  ___ | |_   _| |_   /  \ | |     
+[script:Core_CypherDe]   / /\ \ | |_ \/ __|/ _ \| | | | | __| / /\ \| |     
+[script:Core_CypherDe]  / ____ \| |_) \__ \ (_) | | |_| | |_ / ____ \ |____ 
+[script:Core_CypherDe] /_/    \_\____/|___/\___/|_|\__,_|\__/_/    \_\_____|
+[script:Core_CypherDe] 
+[script:Core_CypherDe] Loaded Anticheat Banlist
+[script:Core_CypherDe] La BanList a ete charger avec succes.
+[script:Core_CypherDe] La BanListHistory a ete charger avec succes.
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/info.json (Get "https://24.230.248.113:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[          script:hud] [ERROR] xPlayer is nil for source: 1
+[                 cmd] Access denied for command add_principal.
+[script:Core_CypherDe] [framework] [INFO] A player with name "BoldTurtle9177" has connected to the server with assigned player id 1
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/players.json (Get "https://24.230.248.113:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║           CypherDev║ restart  restart Core_CypherDev
+[                 cmd] Argument count mismatch (passed 2, wanted 1)
+║           CypherDev║ restart Core_CypherDev
+[           resources] Stopping resource Core_CypherDev
+[    c-scripting-core] Creating script environments for Core_CypherDev
+[script:Core_CypherDe] [framework] [INFO] ESX Framework developed by Cypher has been initialized
+[script:Core_CypherDe] creator:updateId
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_1.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource Core_CypherDev (12 warnings)
+[      script:oxmysql] Warning: Core_CypherDev executed a query with an oversized result set (1055 results)!
+[      script:oxmysql] SELECT * FROM owned_vehicles
+[ citizen-server-impl] server thread hitch warning: timer interval of 524 milliseconds
+[                 cmd] Access denied for command add_principal.
+[script:Core_CypherDe] [framework] [INFO] A player with name "BoldTurtle9177" has connected to the server with assigned player id 1
+[script:Core_CypherDe] 
+[script:Core_CypherDe]           _               _       _            _____ 
+[script:Core_CypherDe]     /\   | |             | |     | |     /\   / ____|
+[script:Core_CypherDe]    /  \  | |__  ___  ___ | |_   _| |_   /  \ | |     
+[script:Core_CypherDe]   / /\ \ | |_ \/ __|/ _ \| | | | | __| / /\ \| |     
+[script:Core_CypherDe]  / ____ \| |_) \__ \ (_) | | |_| | |_ / ____ \ |____ 
+[script:Core_CypherDe] /_/    \_\____/|___/\___/|_|\__,_|\__/_/    \_\_____|
+[script:Core_CypherDe] 
+[script:Core_CypherDe] Loaded Anticheat Banlist
+[script:Core_CypherDe] La BanList a ete charger avec succes.
+[script:Core_CypherDe] La BanListHistory a ete charger avec succes.
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/players.json (Get "https://24.230.248.113:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/info.json (Get "https://24.230.248.113:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║           CypherDev║ restart Core_CypherDev
+[           resources] Stopping resource Core_CypherDev
+[    c-scripting-core] Creating script environments for Core_CypherDev
+[script:Core_CypherDe] [framework] [INFO] ESX Framework developed by Cypher has been initialized
+[script:Core_CypherDe] creator:updateId
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_1.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource Core_CypherDev (12 warnings)
+[      script:oxmysql] Warning: Core_CypherDev executed a query with an oversized result set (1055 results)!
+[      script:oxmysql] SELECT * FROM owned_vehicles
+[ citizen-server-impl] server thread hitch warning: timer interval of 413 milliseconds
+[                 cmd] Access denied for command add_principal.
+[script:Core_CypherDe] [framework] [INFO] A player with name "BoldTurtle9177" has connected to the server with assigned player id 1
+[script:Core_CypherDe] 
+[script:Core_CypherDe]           _               _       _            _____ 
+[script:Core_CypherDe]     /\   | |             | |     | |     /\   / ____|
+[script:Core_CypherDe]    /  \  | |__  ___  ___ | |_   _| |_   /  \ | |     
+[script:Core_CypherDe]   / /\ \ | |_ \/ __|/ _ \| | | | | __| / /\ \| |     
+[script:Core_CypherDe]  / ____ \| |_) \__ \ (_) | | |_| | |_ / ____ \ |____ 
+[script:Core_CypherDe] /_/    \_\____/|___/\___/|_|\__,_|\__/_/    \_\_____|
+[script:Core_CypherDe] 
+[script:Core_CypherDe] Loaded Anticheat Banlist
+[script:Core_CypherDe] La BanList a ete charger avec succes.
+[script:Core_CypherDe] La BanListHistory a ete charger avec succes.
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/info.json (Get "https://24.230.248.113:30120/info.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))
+║           CypherDev║ restart Core_CypherDev
+[           resources] Stopping resource Core_CypherDev
+[    c-scripting-core] Creating script environments for Core_CypherDev
+[script:Core_CypherDe] [framework] [INFO] ESX Framework developed by Cypher has been initialized
+[script:Core_CypherDe] creator:updateId
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_2_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_0_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_1_1.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_0.ytd uses 32.0 MiB of physical memory.
+[resources:Core_Cyphe] Asset Core_CypherDev/minimap_sea_2_1.ytd uses 32.0 MiB of physical memory.
+[           resources] Started resource Core_CypherDev (12 warnings)
+[      script:oxmysql] Warning: Core_CypherDev executed a query with an oversized result set (1055 results)!
+[      script:oxmysql] SELECT * FROM owned_vehicles
+[ citizen-server-impl] server thread hitch warning: timer interval of 419 milliseconds
+[                 cmd] Access denied for command add_principal.
+[script:Core_CypherDe] [framework] [INFO] A player with name "BoldTurtle9177" has connected to the server with assigned player id 1
+[script:Core_CypherDe] 
+[script:Core_CypherDe]           _               _       _            _____ 
+[script:Core_CypherDe]     /\   | |             | |     | |     /\   / ____|
+[script:Core_CypherDe]    /  \  | |__  ___  ___ | |_   _| |_   /  \ | |     
+[script:Core_CypherDe]   / /\ \ | |_ \/ __|/ _ \| | | | | __| / /\ \| |     
+[script:Core_CypherDe]  / ____ \| |_) \__ \ (_) | | |_| | |_ / ____ \ |____ 
+[script:Core_CypherDe] /_/    \_\____/|___/\___/|_|\__,_|\__/_/    \_\_____|
+[script:Core_CypherDe] 
+[script:Core_CypherDe] Loaded Anticheat Banlist
+[script:Core_CypherDe] La BanList a ete charger avec succes.
+[script:Core_CypherDe] La BanListHistory a ete charger avec succes.
+[ citizen-server-impl] Server list query returned an error: server request failed: server request failed for endpoint https://24.230.248.113:30120/players.json (Get "https://24.230.248.113:30120/players.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers))

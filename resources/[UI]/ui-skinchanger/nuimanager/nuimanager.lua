@@ -1,26 +1,26 @@
 local NUIFocus = false
 local isCreatingCharacter = false
 
-RegisterNetEvent("Tarek-skincreator:SendNUIMessage")
-AddEventHandler("Tarek-skincreator:SendNUIMessage", function(message)
+RegisterNetEvent("Cypher-skincreator:SendNUIMessage")
+AddEventHandler("Cypher-skincreator:SendNUIMessage", function(message)
     SendNUIMessage(message)
 end)
 
-RegisterNetEvent("Tarek-skincreator:RegisterNUICallback")
-AddEventHandler("Tarek-skincreator:RegisterNUICallback", function(name, func)
+RegisterNetEvent("Cypher-skincreator:RegisterNUICallback")
+AddEventHandler("Cypher-skincreator:RegisterNUICallback", function(name, func)
     RegisterNUICallback(name, func)
 end)
 
-RegisterNetEvent("Tarek-skincreator:setNUIFocus")
-AddEventHandler("Tarek-skincreator:setNUIFocus", function(toggle)
+RegisterNetEvent("Cypher-skincreator:setNUIFocus")
+AddEventHandler("Cypher-skincreator:setNUIFocus", function(toggle)
     NUIFocus = toggle
     SetNuiFocus(toggle, toggle)
 end)
 
 Citizen.CreateThread(function()
-    TriggerEvent("Tarek-skincreator:RegisterNUICallback", "close", function()
-        TriggerEvent("Tarek-skincreator:setNUIFocus", false)
-        TriggerEvent("Tarek-skincreator:SendNUIMessage", {
+    TriggerEvent("Cypher-skincreator:RegisterNUICallback", "close", function()
+        TriggerEvent("Cypher-skincreator:setNUIFocus", false)
+        TriggerEvent("Cypher-skincreator:SendNUIMessage", {
             show = false
         })    
     end)
@@ -48,18 +48,18 @@ function createCameraFrontOfPlayer()
 end
 
 
-RegisterNetEvent("Tarek-skincreator:createCharacter")
-AddEventHandler("Tarek-skincreator:createCharacter", function()
+RegisterNetEvent("Cypher-skincreator:createCharacter")
+AddEventHandler("Cypher-skincreator:createCharacter", function()
     isCreatingCharacter = true
-    TriggerEvent("Tarek-skincreator:setNUIFocus", true)
-    TriggerEvent("Tarek-skincreator:SendNUIMessage", {
+    TriggerEvent("Cypher-skincreator:setNUIFocus", true)
+    TriggerEvent("Cypher-skincreator:SendNUIMessage", {
         show= true,
     })
 end)
 
 RegisterNUICallback("selectCategory", function(data, cb)
-    TriggerEvent("Tarek-skincreator:SendNUIMessage", {
-        serverName = "DynastyRP",
+    TriggerEvent("Cypher-skincreator:SendNUIMessage", {
+        serverName = "NyseraRP",
         menuName = "Modification de l'apparence",
         menuSubTitle = "Création de personnage",
         menuDesc = "Cette interface vous permet de modifier votre personnage à votre guise.",
@@ -79,15 +79,15 @@ end)
 RegisterNUICallback('validate', function(data, cb)
     if isCreatingCharacter then
         TriggerEvent('skinchanger:getSkin', function(skin)
-            TriggerEvent("Tarek-skincreator:SendNUIMessage", {
+            TriggerEvent("Cypher-skincreator:SendNUIMessage", {
                 show = false
             })
-            TriggerEvent("Tarek-skincreator:setNUIFocus", false)
+            TriggerEvent("Cypher-skincreator:setNUIFocus", false)
             TriggerServerEvent('esx_skin:save', skin)
-            TriggerEvent('Dynasty:Addons:Client:chooseStarter')
+            TriggerEvent('NyseraRP:Addons:Client:chooseStarter')
         end)
     end
-    ESX.TriggerServerCallback('Tarek-skincreator:saveSkin', function(response)
+    ESX.TriggerServerCallback('Cypher-skincreator:saveSkin', function(response)
         if response then
             TriggerEvent('skinchanger:getSkin', function(skin)
                 TriggerServerEvent('esx_skin:save', skin)

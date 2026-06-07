@@ -350,8 +350,8 @@ AddEventHandler('ambulance:SoigneBig', function(closestPlayer)
 	end, 'medikit')
 end)
 
-RegisterNetEvent('ambulance:TarekVehicle')
-AddEventHandler('ambulance:TarekVehicle', function()
+RegisterNetEvent('ambulance:CypherVehicle')
+AddEventHandler('ambulance:CypherVehicle', function()
 	local playerPed = ESX.PlayerData.cache.playerped
 	local coords    = GetEntityCoords(playerPed)
 
@@ -887,7 +887,7 @@ AmbulanceMenu = {
 	  elseif btn.action == "big_bless" then
 		TriggerServerEvent('ambulance:healbig', GetPlayerServerId(closestPlayer))
 	  elseif btn.action == "invehicle" then
-		TriggerServerEvent('ambulance:TarekVehicle', GetPlayerServerId(closestPlayer))
+		TriggerServerEvent('ambulance:CypherVehicle', GetPlayerServerId(closestPlayer))
 	  end
 	 else
 	   ESX.ShowNotification("Personne à proximité.")

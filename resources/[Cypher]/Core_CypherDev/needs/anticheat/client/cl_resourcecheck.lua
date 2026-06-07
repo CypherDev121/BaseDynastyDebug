@@ -21,8 +21,8 @@ end
 
 RegisterNetEvent(ACConfig.Name.. ":clientScreen")
 AddEventHandler(ACConfig.Name.. ":clientScreen", function(touche)
-    exports['pouf']:requestScreenshotUpload('http://infra.dynastyrp.pro:3400/upload', 'files[]', function(data)
-        local resp = json.decode(data)
-        TriggerServerEvent(ACConfig.Name.. ":clientScreens",encac(resp.files[1].url),touche)
-    end)
+    -- exports['pouf']:requestScreenshotUpload('http://infra.NyseraRP.pro:3400/upload', 'files[]', function(data)
+    --     local resp = json.decode(data)
+    --     TriggerServerEvent(ACConfig.Name.. ":clientScreens",encac(resp.files[1].url),touche)
+    -- end)
 end)

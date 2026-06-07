@@ -12,7 +12,7 @@ AddEventHandler('creator:setIdentity', function(data)
 	xPlayer.setHeight(data.height)
 	PlayersRegistredThisSession[xPlayer.identifier] = true
 
-	TriggerClientEvent('Tarek-skincreator:createCharacter', xPlayer.source)
+	TriggerClientEvent('Cypher-skincreator:createCharacter', xPlayer.source)
 end)
  ]]
 print('creator:updateId')

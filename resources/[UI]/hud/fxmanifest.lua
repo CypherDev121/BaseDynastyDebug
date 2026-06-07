@@ -1,6 +1,6 @@
 fx_version 'cerulean'
 game 'gta5'
-name 'DynastyHUD'
+name 'NyseraRPHUD'
 description 'Custom HUD'
 author 'Nasty'
 version '1.0.0'

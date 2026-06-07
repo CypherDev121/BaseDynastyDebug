@@ -300,5 +300,5 @@ server_scripts {
 }
 
 exports {
-	'TarekcheckStop'
+	'CyphercheckStop'
 }

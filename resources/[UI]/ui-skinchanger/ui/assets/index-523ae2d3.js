@@ -1,4 +1,4 @@
-(function() {
+(function () {
     const t = document.createElement("link").relList;
     if (t && t.supports && t.supports("modulepreload")) return;
     for (const i of document.querySelectorAll('link[rel="modulepreload"]')) n(i);
@@ -32,7 +32,7 @@ function Cs(e, t) {
 }
 const j = {},
     Qe = [],
-    de = () => {},
+    de = () => { },
     vi = () => !1,
     xi = /^on[^a-z]/,
     Ut = e => xi.test(e),
@@ -187,14 +187,14 @@ function Fi() {
     return ae
 }
 const Ts = e => {
-        const t = new Set(e);
-        return t.w = 0, t.n = 0, t
-    },
+    const t = new Set(e);
+    return t.w = 0, t.n = 0, t
+},
     Dn = e => (e.w & Le) > 0,
     Rn = e => (e.n & Le) > 0,
     ki = ({
-              deps: e
-          }) => {
+        deps: e
+    }) => {
         if (e.length)
             for (let t = 0; t < e.length; t++) e[t].w |= Le
     },
@@ -321,14 +321,14 @@ const Bi = Cs("__proto__,__v_isRef,__isVue"),
 function ji() {
     const e = {};
     return ["includes", "indexOf", "lastIndexOf"].forEach(t => {
-        e[t] = function(...s) {
+        e[t] = function (...s) {
             const n = F(this);
             for (let r = 0, o = this.length; r < o; r++) re(n, "get", r + "");
             const i = n[t](...s);
             return i === -1 || i === !1 ? n[t](...s.map(F)) : i
         }
     }), ["push", "pop", "shift", "unshift", "splice"].forEach(t => {
-        e[t] = function(...s) {
+        e[t] = function (...s) {
             it();
             const n = F(this)[t].apply(this, s);
             return rt(), n
@@ -466,7 +466,7 @@ function en() {
 }
 
 function Pt(e, t) {
-    return function(n, i) {
+    return function (n, i) {
         const r = this,
             o = r.__v_raw,
             c = F(o),
@@ -476,7 +476,7 @@ function Pt(e, t) {
 }
 
 function It(e, t, s) {
-    return function(...n) {
+    return function (...n) {
         const i = this.__v_raw,
             r = F(i),
             o = Ve(r),
@@ -506,26 +506,26 @@ function It(e, t, s) {
 }
 
 function Pe(e) {
-    return function(...t) {
+    return function (...t) {
         return e === "delete" ? !1 : e === "clear" ? void 0 : this
     }
 }
 
 function zi() {
     const e = {
-            get(r) {
-                return St(this, r)
-            },
-            get size() {
-                return Ot(this)
-            },
-            has: Tt,
-            add: Xs,
-            set: Zs,
-            delete: Gs,
-            clear: en,
-            forEach: Pt(!1, !1)
+        get(r) {
+            return St(this, r)
         },
+        get size() {
+            return Ot(this)
+        },
+        has: Tt,
+        add: Xs,
+        set: Zs,
+        delete: Gs,
+        clear: en,
+        forEach: Pt(!1, !1)
+    },
         t = {
             get(r) {
                 return St(this, r, !1, !0)
@@ -583,8 +583,8 @@ function Is(e, t) {
     return (n, i, r) => i === "__v_isReactive" ? !e : i === "__v_isReadonly" ? e : i === "__v_raw" ? n : Reflect.get(R(s, i) && i in n ? s : n, i, r)
 }
 const Vi = {
-        get: Is(!1, !1)
-    },
+    get: Is(!1, !1)
+},
     Xi = {
         get: Is(!1, !0)
     },
@@ -873,7 +873,7 @@ function mr(e, t, ...s) {
     const r = t.startsWith("update:"),
         o = r && t.slice(7);
     if (o && o in n) {
-        const m = `${o==="modelValue"?"model":o}Modifiers`,
+        const m = `${o === "modelValue" ? "model" : o}Modifiers`,
             {
                 number: x,
                 trim: w
@@ -981,13 +981,13 @@ function rs(e) {
     return s.dirs && ($ = tt($), $.dirs = $.dirs ? $.dirs.concat(s.dirs) : s.dirs), s.transition && ($.transition = s.transition), z = $, jt(J), z
 }
 const br = e => {
-        let t;
-        for (const s in e)(s === "class" || s === "style" || Ut(s)) && ((t || (t = {}))[s] = e[s]);
-        return t
-    },
+    let t;
+    for (const s in e) (s === "class" || s === "style" || Ut(s)) && ((t || (t = {}))[s] = e[s]);
+    return t
+},
     yr = (e, t) => {
         const s = {};
-        for (const n in e)(!ws(n) || !(n.slice(9) in t)) && (s[n] = e[n]);
+        for (const n in e) (!ws(n) || !(n.slice(9) in t)) && (s[n] = e[n]);
         return s
     };
 
@@ -1027,9 +1027,9 @@ function sn(e, t, s) {
 }
 
 function xr({
-                vnode: e,
-                parent: t
-            }, s) {
+    vnode: e,
+    parent: t
+}, s) {
     for (; t && t.subTree === e;)(e = t.vnode).el = s, t = t.parent
 }
 const Cr = Symbol.for("v-ndc"),
@@ -1066,10 +1066,10 @@ function ei(e, t, {
         u = () => $e(M())
     }
     let w, I = M => {
-            w = J.onStop = () => {
-                Me(M, f, 4), w = J.onStop = void 0
-            }
-        },
+        w = J.onStop = () => {
+            Me(M, f, 4), w = J.onStop = void 0
+        }
+    },
         U;
     if (vt)
         if (I = de, t ? s && he(t, f, 3, [u(), x ? [] : void 0, I]) : u(), i === "sync") {
@@ -1240,8 +1240,8 @@ const ms = e => e ? gi(e) ? Hs(e) || e.proxy : ms(e.parent) : null,
     ls = (e, t) => e !== j && !e.__isScriptSetup && R(e, t),
     Br = {
         get({
-                _: e
-            }, t) {
+            _: e
+        }, t) {
             const {
                 ctx: s,
                 setupState: n,
@@ -1279,8 +1279,8 @@ const ms = e => e ? gi(e) ? Hs(e) || e.proxy : ms(e.parent) : null,
             if (w = f.config.globalProperties, R(w, t)) return w[t]
         },
         set({
-                _: e
-            }, t, s) {
+            _: e
+        }, t, s) {
             const {
                 data: n,
                 setupState: i,
@@ -1289,15 +1289,15 @@ const ms = e => e ? gi(e) ? Hs(e) || e.proxy : ms(e.parent) : null,
             return ls(i, t) ? (i[t] = s, !0) : n !== j && R(n, t) ? (n[t] = s, !0) : R(e.props, t) || t[0] === "$" && t.slice(1) in e ? !1 : (r[t] = s, !0)
         },
         has({
-                _: {
-                    data: e,
-                    setupState: t,
-                    accessCache: s,
-                    ctx: n,
-                    appContext: i,
-                    propsOptions: r
-                }
-            }, o) {
+            _: {
+                data: e,
+                setupState: t,
+                accessCache: s,
+                ctx: n,
+                appContext: i,
+                propsOptions: r
+            }
+        }, o) {
             let c;
             return !!s[o] || e !== j && R(e, o) || ls(t, o) || (c = r[0]) && R(c, o) || R(n, o) || R(ht, o) || R(i.config.globalProperties, o)
         },
@@ -1486,7 +1486,7 @@ const Kr = {
 };
 
 function on(e, t) {
-    return t ? e ? function() {
+    return t ? e ? function () {
         return Z(A(e) ? e.call(this, this) : e, A(t) ? t.call(this, this) : t)
     } : t : e
 }
@@ -1548,7 +1548,7 @@ function oi() {
 let qr = 0;
 
 function zr(e, t) {
-    return function(n, i = null) {
+    return function (n, i = null) {
         A(n) || (n = Z({}, n)), i != null && !H(i) && (i = null);
         const r = oi(),
             o = new WeakSet;
@@ -1564,7 +1564,7 @@ function zr(e, t) {
             get config() {
                 return r.config
             },
-            set config(u) {},
+            set config(u) { },
             use(u, ...m) {
                 return o.has(u) || (u && A(u.install) ? (o.add(u), u.install(f, ...m)) : A(u) && (o.add(u), u(f, ...m))), f
             },
@@ -1656,9 +1656,9 @@ function $r(e, t, s, n) {
     } else {
         li(e, t, i, r) && (u = !0);
         let m;
-        for (const x in c)(!t || !R(t, x) && ((m = nt(x)) === x || !R(t, m))) && (f ? s && (s[x] !== void 0 || s[m] !== void 0) && (i[x] = ys(f, c, x, void 0, e, !0)) : delete i[x]);
+        for (const x in c) (!t || !R(t, x) && ((m = nt(x)) === x || !R(t, m))) && (f ? s && (s[x] !== void 0 || s[m] !== void 0) && (i[x] = ys(f, c, x, void 0, e, !0)) : delete i[x]);
         if (r !== c)
-            for (const x in r)(!t || !R(t, x)) && (delete r[x], u = !0)
+            for (const x in r) (!t || !R(t, x)) && (delete r[x], u = !0)
     }
     u && Se(e, "set", "$attrs")
 }
@@ -1894,16 +1894,16 @@ function Gr(e, t) {
     }, J = (l, a, d, h) => {
         [l.el, l.anchor] = U(l.children, a, d, h, l.el, l.anchor)
     }, $ = ({
-                el: l,
-                anchor: a
-            }, d, h) => {
+        el: l,
+        anchor: a
+    }, d, h) => {
         let p;
         for (; l && l !== a;) p = w(l), n(l, d, h), l = p;
         n(a, d, h)
     }, M = ({
-                el: l,
-                anchor: a
-            }) => {
+        el: l,
+        anchor: a
+    }) => {
         let d;
         for (; l && l !== a;) d = w(l), i(l), l = d;
         i(a)
@@ -2021,43 +2021,43 @@ function Gr(e, t) {
         else a.el = l.el, h.vnode = a
     }, G = (l, a, d, h, p, b, v) => {
         const _ = () => {
-                if (l.isMounted) {
-                    let {
-                        next: S,
-                        bu: C,
-                        u: T,
-                        parent: P,
-                        vnode: L
-                    } = l, B = S, k;
-                    Ne(l, !1), S ? (S.el = L.el, K(l, S, v)) : S = L, C && is(C), (k = S.props && S.props.onVnodeBeforeUpdate) && _e(k, P, S, L), Ne(l, !0);
-                    const W = rs(l),
-                        le = l.subTree;
-                    l.subTree = W, D(le, W, x(le.el), Et(le), l, p, b), S.el = W.el, B === null && xr(l, W.el), T && ne(T, p), (k = S.props && S.props.onVnodeUpdated) && ne(() => _e(k, P, S, L), p)
+            if (l.isMounted) {
+                let {
+                    next: S,
+                    bu: C,
+                    u: T,
+                    parent: P,
+                    vnode: L
+                } = l, B = S, k;
+                Ne(l, !1), S ? (S.el = L.el, K(l, S, v)) : S = L, C && is(C), (k = S.props && S.props.onVnodeBeforeUpdate) && _e(k, P, S, L), Ne(l, !0);
+                const W = rs(l),
+                    le = l.subTree;
+                l.subTree = W, D(le, W, x(le.el), Et(le), l, p, b), S.el = W.el, B === null && xr(l, W.el), T && ne(T, p), (k = S.props && S.props.onVnodeUpdated) && ne(() => _e(k, P, S, L), p)
+            } else {
+                let S;
+                const {
+                    el: C,
+                    props: T
+                } = a, {
+                    bm: P,
+                    m: L,
+                    parent: B
+                } = l, k = Dt(a);
+                if (Ne(l, !1), P && is(P), !k && (S = T && T.onVnodeBeforeMount) && _e(S, B, a), Ne(l, !0), C && ss) {
+                    const W = () => {
+                        l.subTree = rs(l), ss(C, l.subTree, l, p, null)
+                    };
+                    k ? a.type.__asyncLoader().then(() => !l.isUnmounted && W()) : W()
                 } else {
-                    let S;
-                    const {
-                        el: C,
-                        props: T
-                    } = a, {
-                        bm: P,
-                        m: L,
-                        parent: B
-                    } = l, k = Dt(a);
-                    if (Ne(l, !1), P && is(P), !k && (S = T && T.onVnodeBeforeMount) && _e(S, B, a), Ne(l, !0), C && ss) {
-                        const W = () => {
-                            l.subTree = rs(l), ss(C, l.subTree, l, p, null)
-                        };
-                        k ? a.type.__asyncLoader().then(() => !l.isUnmounted && W()) : W()
-                    } else {
-                        const W = l.subTree = rs(l);
-                        D(null, W, d, h, l, p, b), a.el = W.el
-                    }
-                    if (L && ne(L, p), !k && (S = T && T.onVnodeMounted)) {
-                        const W = a;
-                        ne(() => _e(S, B, W), p)
-                    }(a.shapeFlag & 256 || B && Dt(B.vnode) && B.vnode.shapeFlag & 256) && l.a && ne(l.a, p), l.isMounted = !0, a = d = h = null
+                    const W = l.subTree = rs(l);
+                    D(null, W, d, h, l, p, b), a.el = W.el
                 }
-            },
+                if (L && ne(L, p), !k && (S = T && T.onVnodeMounted)) {
+                    const W = a;
+                    ne(() => _e(S, B, W), p)
+                } (a.shapeFlag & 256 || B && Dt(B.vnode) && B.vnode.shapeFlag & 256) && l.a && ne(l.a, p), l.isMounted = !0, a = d = h = null
+            }
+        },
             y = l.effect = new Os(_, () => Fs(g), l.scope),
             g = l.update = () => y.run();
         g.id = l.uid, Ne(l, !0), g()
@@ -2228,7 +2228,7 @@ function Gr(e, t) {
                 return
             }
             P && ke(l, null, a, "beforeUnmount"), S & 64 ? l.type.remove(l, a, d, p, ze, h) : g && (b !== ie || C > 0 && C & 64) ? Ce(g, a, d, !1, !0) : (b === ie && C & 384 || !p && S & 16) && Ce(y, a, d), h && Us(l)
-        }(L && (B = v && v.onVnodeUnmounted) || P) && ne(() => {
+        } (L && (B = v && v.onVnodeUnmounted) || P) && ne(() => {
             B && _e(B, a, l), P && ke(l, null, a, "unmounted")
         }, d)
     }, Us = l => {
@@ -2296,9 +2296,9 @@ function Gr(e, t) {
 }
 
 function Ne({
-                effect: e,
-                update: t
-            }, s) {
+    effect: e,
+    update: t
+}, s) {
     e.allowRecurse = t.allowRecurse = s
 }
 
@@ -2378,13 +2378,13 @@ function at(e, t) {
 }
 const Zt = "__vInternal",
     pi = ({
-              key: e
-          }) => e ?? null,
+        key: e
+    }) => e ?? null,
     kt = ({
-              ref: e,
-              ref_key: t,
-              ref_for: s
-          }) => (typeof e == "number" && (e = "" + e), e != null ? q(e) || X(e) || A(e) ? {
+        ref: e,
+        ref_key: t,
+        ref_for: s
+    }) => (typeof e == "number" && (e = "" + e), e != null ? q(e) || X(e) || A(e) ? {
         i: ve,
         r: e,
         k: t,
@@ -2522,9 +2522,9 @@ function Bs(e, t) {
             !i && !(Zt in t) ? t._ctx = ve : i === 3 && ve && (ve.slots._ === 1 ? t._ = 1 : (t._ = 2, e.patchFlag |= 1024))
         }
     else A(t) ? (t = {
-            default: t,
-            _ctx: ve
-        }, s = 32) : (t = String(t), n & 64 ? (s = 16, t = [gt(t)]) : s = 8);
+        default: t,
+        _ctx: ve
+    }, s = 32) : (t = String(t), n & 64 ? (s = 16, t = [gt(t)]) : s = 8);
     e.children = t, e.shapeFlag |= s
 }
 
@@ -2623,8 +2623,8 @@ let V = null,
     Ye.length > 1 ? Ye.forEach(t => t(e)) : Ye[0](e)
 };
 const st = e => {
-        js(e), e.scope.on()
-    },
+    js(e), e.scope.on()
+},
     Ke = () => {
         V && V.scope.off(), js(null)
     };
@@ -2865,7 +2865,7 @@ function Mo(e, t, s, n, i, r, o) {
     }
     try {
         e[t] = s
-    } catch {}
+    } catch { }
     f && e.removeAttribute(t)
 }
 
@@ -2964,7 +2964,7 @@ var Jo = !1;
  */
 const Yo = Symbol();
 var En;
-(function(e) {
+(function (e) {
     e.direct = "direct", e.patchObject = "patch object", e.patchFunction = "patch function"
 })(En || (En = {}));
 
@@ -2989,17 +2989,17 @@ function $o() {
     return i
 }
 const Qo = (e, t) => {
-        const s = e.__vccOpts || e;
-        for (const [n, i] of t) s[n] = i;
-        return s
-    },
+    const s = e.__vccOpts || e;
+    for (const [n, i] of t) s[n] = i;
+    return s
+},
     Vo = {
         name: "App",
         components: {},
         data() {
             return {
                 show: !1,
-                serverName: "TarekRP",
+                serverName: "CypherRP",
                 menuName: "Character Creator",
                 menuSubTitle: "Barber Shop",
                 menuDesc: "Cette interface vous permet de modifier votre personnage à votre guise.",
@@ -3300,32 +3300,32 @@ const Qo = (e, t) => {
             }
         },
         methods: {
-            handleHeritageChange: function(e, t) {
+            handleHeritageChange: function (e, t) {
                 e == "shape" ? (this.characterData.heritage.shapeMix = t, this.updateSkinData("face_md_weight", this.characterData.heritage.shapeMix)) : e == "skin" && (this.characterData.heritage.skinMix = t, this.updateSkinData("skin_md_weight", this.characterData.heritage.skinMix))
             },
-            handleParentChange: function(e, t) {
+            handleParentChange: function (e, t) {
                 this.characterData.heritage[e] = t, this.updateSkinData(e, t)
             },
-            updateSkinData: function(e, t, s) {
+            updateSkinData: function (e, t, s) {
                 s !== void 0 && t > s && (t = s), this.skinData[e] = t, this.post("updateSkinData", {
                     key: e,
                     value: t
                 })
             },
-            selectCategory: function(e) {
+            selectCategory: function (e) {
                 this.post("selectCategory", {
                     key: e
                 })
             },
-            close: function() {
+            close: function () {
                 this.post("close", {})
             },
-            validate: function() {
+            validate: function () {
                 this.post("validate", {
                     skinData: this.skinData
                 })
             },
-            sortedListById: function(e) {
+            sortedListById: function (e) {
                 var t = [];
                 var index = 1;
                 for (var s in e) {
@@ -3333,7 +3333,7 @@ const Qo = (e, t) => {
                     t.push({ ...e[s], id: n, tableKey: s });
                 }
                 return t;
-            }            
+            }
         },
         mounted() {
             this.messageListener = window.addEventListener("message", t => {
@@ -3341,11 +3341,11 @@ const Qo = (e, t) => {
                 s.show !== void 0 && (this.show = s.show), s.menuName !== void 0 && (this.menuName = s.menuName), s.menuSubTitle !== void 0 && (this.menuSubTitle = s.menuSubTitle), s.menuDesc !== void 0 && (this.menuDesc = s.menuDesc), s.categories !== void 0 && (this.categories = s.categories), s.itemsList !== void 0 && (this.itemsList = s.itemsList), s.variationsCount !== void 0 && (this.variationsCount = s.variationsCount), s.variationsList !== void 0 && (this.variationsList = s.variationsList), s.parentsList !== void 0 && (this.parentsList = s.parentsList), s.skinData !== void 0 && (this.skinData = s.skinData), s.characterData !== void 0 && (this.characterData = s.characterData), s.selectedCategory !== void 0 && (this.selectedCategory = s.selectedCategory), s.serverName !== void 0 && (this.serverName = s.serverName)
             });
             const e = this;
-            window.addEventListener("keyup", function(t) {
+            window.addEventListener("keyup", function (t) {
                 t.key === "Escape" && e.close()
-            }), window.addEventListener("keydown", function(t) {
+            }), window.addEventListener("keydown", function (t) {
                 t.key === "ArrowRight" ? e.post("setCamAngle", 1) : t.key === "ArrowLeft" ? e.post("setCamAngle", -1) : t.key === "ArrowUp" || t.key
-            }), this.post = function(t, s) {
+            }), this.post = function (t, s) {
                 return fetch(`https://ui-skinchanger/${t}`, {
                     method: "post",
                     headers: {
@@ -3615,8 +3615,8 @@ function ec(e, t, s, n, i, r) {
     }, null, 40, Vl)])) : ft("", !0)], 2))), 128))])) : ft("", !0)])]), Xl], 4), Zl, Gl], 64)
 }
 const tc = Qo(Vo, [
-        ["render", ec]
-    ]),
+    ["render", ec]
+]),
     _i = qo(tc);
 _i.use($o());
 _i.mount("#app");
