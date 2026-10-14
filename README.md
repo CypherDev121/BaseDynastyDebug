@@ -1,6 +1,6 @@
-# BaseNyseraDev By Cypher
+# Base Dynasty Debug 100% By Cypher
 
-Bienvenue sur **BaseNyseraDev**, une base FiveM complète et moderne développée par **CypherDev**.
+Bienvenue sur **Base Dynasty**, une base FiveM complète et moderne développée par **CypherDev**.
 
 Cette base a été conçue pour offrir une expérience optimisée, fluide et moderne, idéale pour lancer rapidement un serveur RolePlay ou FreeRoam avec des systèmes performants et une interface soignée.
 
