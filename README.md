@@ -13,7 +13,6 @@ Une collection d'interfaces entièrement personnalisées :
 * **CypherDev_Inventory** – Système d'inventaire moderne et optimisé.
 * **HUD Dynamique** – Affichage clair et personnalisable.
 * **CypherDev_Menu** – Menus interactifs et intuitifs.
-* **Nysera_Loading** – Écran de chargement personnalisé.
 * **Banque & Skinchanger** – Interfaces modernes et faciles à utiliser.
 
 ### ⚡ Scripts optimisés
