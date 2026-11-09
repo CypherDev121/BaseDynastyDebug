@@ -38,7 +38,7 @@ Une collection d'interfaces entièrement personnalisées :
 ### 1. Télécharger ou cloner le dépôt
 
 ```bash
-git clone https://github.com/CypherDev121/BaseNyseraDev_ByCypher.git
+git clone https://github.com/CypherDev121/BaseDynastyDebug
 ```
 
 ### 2. Installation de la base de données
